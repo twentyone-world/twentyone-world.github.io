@@ -1,0 +1,81 @@
+---
+layout: showcase
+title: Twentyone World
+jsplugins:
+   qtip: '/js/jquery.qtip.min.js'
+---
+
+<link rel="stylesheet" type="text/css" href="/css/jquery.qtip.css">
+<script type="text/javascript" src="/js/jquery.qtip.min.js"></script>
+
+
+<script type="text/javascript">
+
+    $(function() {
+
+        // initialize tooltips
+        $.fn.qtip.defaults.style.classes = 'ui-tooltip-bootstrap';
+        $.fn.qtip.defaults.style.def = false;
+
+        var map = kartograph.map('#map');
+
+        map.loadMap('map/world.svg', function() {
+            map.addLayer('context', {
+                styles: {
+                    stroke: '#aaa',
+                    fill: '#f6f4f2'
+                }
+            });
+            map.addLayer('countries', {
+                id: 'bg',
+                styles: {
+                    stroke: '#d8d6d4',
+                    'stroke-width': 6.15,
+                    'stroke-linejoin': 'round'
+                }
+            });
+
+            map.addLayer('countries', {
+                title: function(d) { return d.name },
+                styles: {
+                    stroke: '#333',
+                    fill: '#fff'
+                }
+            });
+
+            $.ajax({
+                url: 'data/countries.json',
+                dataType: 'json',
+                success: function(countries) {
+
+                    var scale = kartograph.scale.sqrt(countries.concat([{ meetups: 0 }]), 'meetups').range([0, 5]);
+
+                    map.addSymbols({
+                        type: kartograph.Bubble,
+                        data: countries,
+                        location: function(country) {
+                            return [country.long, country.lat];
+                        },
+                        radius: function(country) {
+                            return scale(country.meetups);
+                        },
+                        tooltip: function(country) {
+                            return '<h3>'+country.name+'</h3>'+country.meetups+' meetups';
+                        },
+                        sortBy: 'radius desc',
+                        style: 'fill:#800; stroke: #fff; fill-opacity: 0.5;',
+                    });
+                }
+            });
+
+        }, { padding: -5 });
+
+    });
+
+</script>
+
+
+<div id="map" style="border:0px solid #999; margin-bottom:1em">
+</div>
+
+<p>Lorem ipsum, add your stuff.</p>

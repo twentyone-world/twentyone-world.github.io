@@ -1,0 +1,67 @@
+---
+layout: core
+---
+
+	<div class="container">
+		<div class="row">
+			<div class="span6 offset6">
+				&nbsp;
+			</div>
+		</div>
+		<div class="row">
+			<div class="span3 sidebar">
+				<div class="head">
+					<p class="tagline">A simple and lightweight framework for creating beautiful, interactive vector maps.</p>
+				</div>
+
+				{% if page.toc %}
+					{% if page.toc == true %}
+						<div class="toc">
+							<h3>Table of Contents</h3>
+						</div>
+					{% else %}
+						{% for tocinfo in page.toc %}
+						<div class="toc">
+							<h3>{{ tocinfo[0] }}</h3>
+
+							<ul>
+								{% for l in tocinfo[1] %}
+									{% if l[1]['_'] %}
+									<li><a href="{{ l[0] }}">{{ l[1]['_'] }}</a>
+										<ul>
+										{% for s in l[1] %}
+										{% if s[0] != '_' %}
+										<li><a href="{{ s[0] }}">{{ s[1] }}</a></li>
+										{% endif %}
+										{% endfor %}
+										</ul>
+									</li>
+									{% else %}
+									{% capture longurl %}{{ l[0] | append:'/index.html' }}{% endcapture %}
+									<li{% if longurl == page.url %} class="active"{% endif %}><a href="{{ l[0] }}">{{ l[1] }}</a></li>
+									{% endif %}
+								{% endfor %}
+							</ul>
+						</div>
+						{% endfor %}
+					{% endif %}
+				{% endif %}
+
+			</div>
+
+			<div class="span9">
+				{% if page.headline %}
+				<div class="hero-unit"{% if page.headbg %} style="background:url({{page.headbg}})" {% endif %}>
+   					<h1>{{ page.headline }}</h1>
+   					<p>{{ page.tagline }}</p>
+				</div>
+				{% endif %}
+				<div class="content{% if page.class %} {{ page.class }}{% endif %}">
+					{{ content }}
+				</div>
+				<div class="footer">
+					&copy; Copyright 2012-2014. Created by <a href="http://driven-by-data.net">Gregor Aisch</a>.
+				</div>
+			</div>
+		</div>
+	</div>
