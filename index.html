@@ -40,27 +40,36 @@ jsplugins:
                 styles: {
                     stroke: '#333',
                     fill: '#fff'
+                },
+                mouseenter: function(d, path) {
+                    path.attr('fill', Math.random() < 0.5 ? '#c04' : '#04c');
+                },
+                mouseleave: function(d, path) {
+                    path.animate({ fill: '#f6f4f2' }, 1000);
+                },
+                click: function(d, path) {
+                    console.log(d.iso);
                 }
             });
 
             $.ajax({
                 url: 'data/countries.json',
                 dataType: 'json',
-                success: function(cities) {
+                success: function(countries) {
 
-                    var scale = kartograph.scale.sqrt(cities.concat([{ nb_visits: 0 }]), 'nb_visits').range([0, 60]);
+                    var scale = kartograph.scale.sqrt(countries.concat([{ nb_visits: 0 }]), 'nb_visits').range([0, 60]);
 
                     map.addSymbols({
                         type: kartograph.Bubble,
-                        data: cities,
-                        location: function(city) {
-                            return [city.long, city.lat];
+                        data: countries,
+                        location: function(country) {
+                            return [country.longitude, country.latitude];
                         },
-                        radius: function(city) {
-                            return scale(city.nb_visits);
+                        radius: function(country) {
+                            return scale(country.nb_visits);
                         },
-                        tooltip: function(city) {
-                            return '<h3>'+city.city_name+'</h3>'+city.nb_visits+' visits';
+                        tooltip: function(country) {
+                            return '<h3>'+country.country_name+'</h3>'+country.nb_visits+' visits';
                         },
                         sortBy: 'radius desc',
                         style: 'fill:#800; stroke: #fff; fill-opacity: 0.5;',
