@@ -10,25 +10,6 @@ body {
 	padding: 30px;
 }
 
-.sidebar {
-	text-align: center;
-}
-
-.sidebar .tagline {
-	font-style: italic;
-	font-size: 15px;
-	text-align: center;
-	color: #888;
-	padding: 5px 18% 20px;
-}
-
-.sidebar h3 {
-	font-weight: normal;
-	font-size: 24px;
-	line-height: 32px;
-	margin-top: 20px;
-}
-
 .nav-tabs.nav-stacked > li > a:hover {
 	border: none!important;
 }
@@ -115,7 +96,6 @@ ul.thumbnails li {
 }
 
 .content h1, .content h2, .content h3,
-.sidebar h3, .sidebar .tagline
 {
 	font-family: Garamond, 'Garamond classico', Baskerville, "Baskerville Old Face", "Hoefler Text", "Times New Roman", serif;
 }
@@ -367,10 +347,6 @@ h3:hover .headerlink {
 }
 
 @media screen and (max-width: 979px) {
-
-	.sidebar .tagline {
-		padding: 5px 0 10px;
-	}
 
 	.content p, .content li {
 		font-size: 13px;
