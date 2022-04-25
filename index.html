@@ -29,7 +29,7 @@ jsplugins:
             map.addLayer('countries', {
                 id: 'bg',
                 styles: {
-                    stroke: '#d8d6d4',
+                    stroke: '#000',
                     'stroke-width': 6.15,
                     'stroke-linejoin': 'round'
                 }
@@ -38,14 +38,14 @@ jsplugins:
             map.addLayer('countries', {
                 title: function(d) { return d.name },
                 styles: {
-                    stroke: '#333',
-                    fill: '#fff'
+                    stroke: '#222',
+                    fill: '#333'
                 },
                 mouseenter: function(d, path) {
                     path.attr('fill', Math.random() < 0.5 ? '#c04' : '#04c');
                 },
                 mouseleave: function(d, path) {
-                    path.animate({ fill: '#f6f4f2' }, 1000);
+                    path.animate({ fill: '#333' }, 1000);
                 },
                 click: function(d, path) {
                     console.log(d.iso);
@@ -72,7 +72,7 @@ jsplugins:
                             return '<h3>'+country.country_name+'</h3>'+country.nb_visits+' visits';
                         },
                         sortBy: 'radius desc',
-                        style: 'fill:#800; stroke: #fff; fill-opacity: 0.5;',
+                        style: 'fill:#F2A900; stroke: #000; fill-opacity: 0.5;',
                     });
                 }
             });
