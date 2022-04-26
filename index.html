@@ -12,6 +12,11 @@ qtip: '/js/jquery.qtip.min.js'
 <script type="text/javascript">
 
     $(function () {
+        // Colors
+        var cOrange = '#F2A900';
+        var cGray = '#333';
+        var cDarkOrange = '#735000';
+        var cDarkWhite = '#BBB';
 
         // initialize tooltips
         $.fn.qtip.defaults.style.classes = 'ui-tooltip-bootstrap';
@@ -39,13 +44,13 @@ qtip: '/js/jquery.qtip.min.js'
                 title: function (d) { return d.name },
                 styles: {
                     stroke: '#222',
-                    fill: '#333'
+                    fill: cGray
                 },
                 mouseenter: function (d, path) {
-                    path.attr('fill', Math.random() < 0.5 ? '#735000' : '#BBB');
+                    path.attr('fill', Math.random() < 0.5 ? cDarkOrange : cDarkWhite );
                 },
                 mouseleave: function (d, path) {
-                    path.animate({ fill: '#333' }, 1000);
+                    path.animate({ fill: cGray }, 1000); // TODO: return to original color
                 },
                 click: function (d, path) {
                     console.log(d.iso);
@@ -64,38 +69,11 @@ qtip: '/js/jquery.qtip.min.js'
                     });
 
                     map.getLayer('countries').style('fill', function (data) {
-                        console.log('gnaaa');
-                        var germany = countries[0];
-                        console.log(germany);
-
-
-                        console.log('ORANGE COUNTRIES: ' + orangeCountries);
                         var orangeCountryCodes = orangeCountries.map(function(c) {
                             return c.alpha3;
                         });
-
-                        console.log('ORANGE CODES: ' + orangeCountryCodes);
-
                         var isOrangeCountry = orangeCountryCodes.includes(data.iso)
-
-                        return isOrangeCountry ? '#d00' : '#ccc';
-                    });
-
-
-                    map.addSymbols({
-                        type: kartograph.Bubble,
-                        data: countries,
-                        location: function (country) {
-                            return [country.longitude, country.latitude];
-                        },
-                        radius: function (country) {
-                            return scale(country.nb_visits);
-                        },
-                        tooltip: function (country) {
-                            return '<h3>' + country.country_name + '</h3>' + country.nb_visits + ' visits';
-                        },
-                        sortBy: 'radius desc',
-                        style: 'fill:#F2A900; stroke: #000; fill-opacity: 0.5;',
+                        return isOrangeCountry ? cOrange : cGray;
                     });
                 }
             });
@@ -107,7 +85,7 @@ qtip: '/js/jquery.qtip.min.js'
 </script>
 
 
-<div id="map" style="border:0px solid #999; margin-bottom:1em">
+<div id="map" style="margin-bottom:1em">
 </div>
 
 <p>Lorem ipsum, add your stuff.</p>
