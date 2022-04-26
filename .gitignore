@@ -2,4 +2,4 @@ update
 update_remote
 old/
 _site/
-demos/shp/
+.DS_Store
