@@ -100,7 +100,9 @@
     "alpha3": "AUT",
     "numeric": 40,
     "latitude": 47.3333,
-    "longitude": 13.3333
+    "longitude": 13.3333,
+    "name": "EINUNDZWANZIG",
+    "link": "https://einundzwanzig.space/meetups"
   },
   {
     "country": "Azerbaijan",
