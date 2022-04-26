@@ -47,15 +47,15 @@ qtip: '/js/jquery.qtip.min.js'
                 dataType: 'json',
                 success: function (countries) {
 
-                    var orangeCountries = countries.filter(function hasLink(c) {
+                    var basedCountries = countries.filter(function hasLink(c) {
                         var hasLink = c.link ? true : false;
                         return hasLink;
                     });
-                    var orangeCountryCodes = orangeCountries.map(function(c) {
+                    var basedCountryCodes = basedCountries.map(function(c) {
                         return c.alpha3;
                     });
-                    function isOrange(iso) {
-                        return orangeCountryCodes.includes(iso);
+                    function isBased(iso) {
+                        return basedCountryCodes.includes(iso);
                     }
                     function getColor(iso) {
                         let country = countries.find(c => c.alpha3 == iso);
@@ -72,13 +72,13 @@ qtip: '/js/jquery.qtip.min.js'
                             fill: cGray
                         },
                         mouseenter: function (d, path) {
-                            if (!isOrange(d.iso)) {
+                            if (!isBased(d.iso)) {
                                 path.attr('fill', Math.random() < 0.5 ? cDarkOrange : cDarkWhite );
                             }
                             return;
                         },
                         mouseleave: function (d, path) {
-                            if (!isOrange(d.iso)) {
+                            if (!isBased(d.iso)) {
                                 path.animate({ fill: getColor(d.iso) }, 1000);
                             }
                             return;
