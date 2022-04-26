@@ -100,8 +100,7 @@
     "alpha3": "AUT",
     "numeric": 40,
     "latitude": 47.3333,
-    "longitude": 13.3333,
-    "link": "https://einundzwanzig.space/meetups"
+    "longitude": 13.3333
   },
   {
     "country": "Azerbaijan",
@@ -630,8 +629,6 @@
     "numeric": 276,
     "latitude": 51,
     "longitude": 9,
-    "city_name": "Munich",
-    "nb_visits": 456,
     "link": "https://einundzwanzig.space/meetups"
   },
   {

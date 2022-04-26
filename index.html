@@ -64,7 +64,6 @@ qtip: '/js/jquery.qtip.min.js'
                 dataType: 'json',
                 success: function (countries) {
 
-                    var scale = kartograph.scale.sqrt(countries.concat([{ nb_visits: 0 }]), 'nb_visits').range([0, 60]);
                     var orangeCountries = countries.filter(function hasLink(c) {
                         var hasLink = c.link ? true : false;
                         return hasLink;
