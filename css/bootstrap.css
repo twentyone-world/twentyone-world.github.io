@@ -403,8 +403,8 @@ dd {
 hr {
   margin: 18px 0;
   border: 0;
-  border-top: 1px solid #eeeeee;
-  border-bottom: 1px solid #ffffff;
+  border-top: 1px solid #333;
+  border-bottom: 1px solid #666;
 }
 strong {
   font-weight: bold;
