@@ -2,7 +2,7 @@
 layout: map
 title: Twentyone.World
 jsplugins:
-   qtip: '/js/jquery.qtip.min.js'
+qtip: '/js/jquery.qtip.min.js'
 ---
 
 <link rel="stylesheet" type="text/css" href="/css/jquery.qtip.css">
@@ -11,7 +11,7 @@ jsplugins:
 
 <script type="text/javascript">
 
-    $(function() {
+    $(function () {
 
         // initialize tooltips
         $.fn.qtip.defaults.style.classes = 'ui-tooltip-bootstrap';
@@ -19,7 +19,7 @@ jsplugins:
 
         var map = kartograph.map('#map');
 
-        map.loadMap('map/world.svg', function() {
+        map.loadMap('map/world.svg', function () {
             map.addLayer('context', {
                 styles: {
                     stroke: '#aaa',
@@ -36,18 +36,18 @@ jsplugins:
             });
 
             map.addLayer('countries', {
-                title: function(d) { return d.name },
+                title: function (d) { return d.name },
                 styles: {
                     stroke: '#222',
                     fill: '#333'
                 },
-                mouseenter: function(d, path) {
-                    path.attr('fill', Math.random() < 0.5 ? '#c04' : '#04c');
+                mouseenter: function (d, path) {
+                    path.attr('fill', Math.random() < 0.5 ? '#735000' : '#BBB');
                 },
-                mouseleave: function(d, path) {
+                mouseleave: function (d, path) {
                     path.animate({ fill: '#333' }, 1000);
                 },
-                click: function(d, path) {
+                click: function (d, path) {
                     console.log(d.iso);
                 }
             });
@@ -55,21 +55,44 @@ jsplugins:
             $.ajax({
                 url: 'data/countries.json',
                 dataType: 'json',
-                success: function(countries) {
+                success: function (countries) {
 
                     var scale = kartograph.scale.sqrt(countries.concat([{ nb_visits: 0 }]), 'nb_visits').range([0, 60]);
+                    var orangeCountries = countries.filter(function hasLink(c) {
+                        var hasLink = c.link ? true : false;
+                        return hasLink;
+                    });
+
+                    map.getLayer('countries').style('fill', function (data) {
+                        console.log('gnaaa');
+                        var germany = countries[0];
+                        console.log(germany);
+
+
+                        console.log('ORANGE COUNTRIES: ' + orangeCountries);
+                        var orangeCountryCodes = orangeCountries.map(function(c) {
+                            return c.alpha3;
+                        });
+
+                        console.log('ORANGE CODES: ' + orangeCountryCodes);
+
+                        var isOrangeCountry = orangeCountryCodes.includes(data.iso)
+
+                        return isOrangeCountry ? '#d00' : '#ccc';
+                    });
+
 
                     map.addSymbols({
                         type: kartograph.Bubble,
                         data: countries,
-                        location: function(country) {
+                        location: function (country) {
                             return [country.longitude, country.latitude];
                         },
-                        radius: function(country) {
+                        radius: function (country) {
                             return scale(country.nb_visits);
                         },
-                        tooltip: function(country) {
-                            return '<h3>'+country.country_name+'</h3>'+country.nb_visits+' visits';
+                        tooltip: function (country) {
+                            return '<h3>' + country.country_name + '</h3>' + country.nb_visits + ' visits';
                         },
                         sortBy: 'radius desc',
                         style: 'fill:#F2A900; stroke: #000; fill-opacity: 0.5;',
