@@ -1,6 +1,8 @@
 ---
-layout: map
+layout: twentyone
 title: Add Yourself
+---
+
 ---
 
 # How to add yourself
