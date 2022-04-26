@@ -1836,7 +1836,10 @@
     "alpha3": "USA",
     "numeric": 840,
     "latitude": 38,
-    "longitude": -97
+    "longitude": -97,
+    "name": "TFTC",
+    "link": "https://tftc.io/",
+    "external": true
   },
   {
     "country": "United States Minor Outlying Islands",
