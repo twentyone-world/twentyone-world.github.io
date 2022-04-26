@@ -15,11 +15,10 @@ qtip: '/js/jquery.qtip.min.js'
         // Colors
         const cOrange = '#F79621';
         const cGray = '#333';
+        const cWhite = '#FFF';
         const cDarkGray = '#222';
         const cDarkOrange = '#735000';
         const cDarkWhite = '#BBB';
-
-        var pathColors = [];
 
         // initialize tooltips
         $.fn.qtip.defaults.style.classes = 'ui-tooltip-bootstrap';
@@ -58,6 +57,13 @@ qtip: '/js/jquery.qtip.min.js'
                     function isOrange(iso) {
                         return orangeCountryCodes.includes(iso);
                     }
+                    function getColor(iso) {
+                        let country = countries.find(c => c.alpha3 == iso);
+                        if (country && country.link) {
+                            return country.external ? cWhite : cOrange;
+                        }
+                        return cGray;
+                    }
 
                     map.addLayer('countries', {
                         title: function (d) { return d.name },
@@ -73,7 +79,7 @@ qtip: '/js/jquery.qtip.min.js'
                         },
                         mouseleave: function (d, path) {
                             if (!isOrange(d.iso)) {
-                                path.animate({ fill: pathColors[d.iso] }, 1000);
+                                path.animate({ fill: getColor(d.iso) }, 1000);
                             }
                             return;
                         },
@@ -88,8 +94,7 @@ qtip: '/js/jquery.qtip.min.js'
                     });
 
                     map.getLayer('countries').style('fill', function (data) {
-                        pathColors[data.iso] = isOrange(data.iso) ? cOrange : cGray;
-                        return pathColors[data.iso];
+                        return getColor(data.iso);
                     });
                 }
             });
