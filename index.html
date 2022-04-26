@@ -13,10 +13,12 @@ qtip: '/js/jquery.qtip.min.js'
 
     $(function () {
         // Colors
-        var cOrange = '#F2A900';
-        var cGray = '#333';
-        var cDarkOrange = '#735000';
-        var cDarkWhite = '#BBB';
+        const cOrange = '#F2A900';
+        const cGray = '#333';
+        const cDarkOrange = '#735000';
+        const cDarkWhite = '#BBB';
+
+        var pathColors = [];
 
         // initialize tooltips
         $.fn.qtip.defaults.style.classes = 'ui-tooltip-bootstrap';
@@ -50,7 +52,7 @@ qtip: '/js/jquery.qtip.min.js'
                     path.attr('fill', Math.random() < 0.5 ? cDarkOrange : cDarkWhite );
                 },
                 mouseleave: function (d, path) {
-                    path.animate({ fill: cGray }, 1000); // TODO: return to original color
+                    path.animate({ fill: pathColors[d.iso] }, 1000);
                 },
                 click: function (d, path) {
                     console.log(d.iso);
@@ -73,6 +75,7 @@ qtip: '/js/jquery.qtip.min.js'
                             return c.alpha3;
                         });
                         var isOrangeCountry = orangeCountryCodes.includes(data.iso)
+                        pathColors[data.iso] = isOrangeCountry ? cOrange : cGray;
                         return isOrangeCountry ? cOrange : cGray;
                     });
                 }
