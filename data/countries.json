@@ -1672,7 +1672,9 @@
     "alpha3": "CHE",
     "numeric": 756,
     "latitude": 47,
-    "longitude": 8
+    "longitude": 8,
+    "name": "EINUNDZWANZIG",
+    "link": "https://einundzwanzig.space/meetups"
   },
   {
     "country": "Syrian Arab Republic",
