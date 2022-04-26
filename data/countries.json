@@ -1770,7 +1770,9 @@
     "alpha3": "TUR",
     "numeric": 792,
     "latitude": 39,
-    "longitude": 35
+    "longitude": 35,
+    "name": "Yirmibir",
+    "link": "https://t.me/YirmibirBitcoin"
   },
   {
     "country": "Turkmenistan",
