@@ -55,6 +55,9 @@ qtip: '/js/jquery.qtip.min.js'
                     var orangeCountryCodes = orangeCountries.map(function(c) {
                         return c.alpha3;
                     });
+                    function isOrange(iso) {
+                        return orangeCountryCodes.includes(iso);
+                    }
 
                     map.addLayer('countries', {
                         title: function (d) { return d.name },
@@ -63,10 +66,16 @@ qtip: '/js/jquery.qtip.min.js'
                             fill: cGray
                         },
                         mouseenter: function (d, path) {
-                            path.attr('fill', Math.random() < 0.5 ? cDarkOrange : cDarkWhite );
+                            if (!isOrange(d.iso)) {
+                                path.attr('fill', Math.random() < 0.5 ? cDarkOrange : cDarkWhite );
+                            }
+                            return;
                         },
                         mouseleave: function (d, path) {
-                            path.animate({ fill: pathColors[d.iso] }, 1000);
+                            if (!isOrange(d.iso)) {
+                                path.animate({ fill: pathColors[d.iso] }, 1000);
+                            }
+                            return;
                         },
                         click: function (d, path) {
                             let country = countries.find(c => c.alpha3 == d.iso);
@@ -79,9 +88,8 @@ qtip: '/js/jquery.qtip.min.js'
                     });
 
                     map.getLayer('countries').style('fill', function (data) {
-                        var isOrangeCountry = orangeCountryCodes.includes(data.iso)
-                        pathColors[data.iso] = isOrangeCountry ? cOrange : cGray;
-                        return isOrangeCountry ? cOrange : cGray;
+                        pathColors[data.iso] = isOrange(data.iso) ? cOrange : cGray;
+                        return pathColors[data.iso];
                     });
                 }
             });
