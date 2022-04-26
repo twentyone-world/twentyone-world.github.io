@@ -14,18 +14,6 @@ body {
 	border: none!important;
 }
 
-.k-menu ul.nav {
-	margin: 30px 0;
-}
-
-.k-menu ul.nav li {
-	text-align: center;
-	list-style: none;
-	font-size: 18px;
-	line-height: 20px;
-	margin-bottom: 1ex;
-}
-
 .hero-unit h1 {
 	font-weight: 100;
 }
@@ -121,66 +109,6 @@ ul.thumbnails li {
 	color: #888;
 	border-bottom: 1px dotted #888;
 
-}
-
-.toc ul {
-	text-align: center;
-	margin: 0;
-}
-
-.toc a {
-	color: #68a;
-	border-bottom: 1px dotted #68a;
-}
-
-.toc > ul > li > a {
-	border-bottom: 1px solid #68a;
-}
-
-.toc > ul > li {
-	list-style: none;
-	padding: 3px;
-}
-
-.toc li > ul {
-	margin-top: 3px;
-}
-.toc li > ul > li {
-	list-style: none;
-	padding: 2px;
-}
-
-.toc li a {
-	background: #fff;
-	-webkit-transition: background-color 0.3s ease-in-out;
-	-moz-transition: background-color 0.3s ease-in-out;
-	-o-transition: background-color 0.3s ease-in-out;
-	transition: background-color 0.3s ease-in-out;
-}
-
-.toc li.active a {
-	background: #eee;
-	padding: 0 1ex;
-	color: #000;
-	border-bottom: 0;
-}
-
-.toc {
-	position: relative;
-
--webkit-transition: top 1000ms cubic-bezier(0.090, 1, 0.135, 1.000); /* older webkit */
--webkit-transition: top 1000ms cubic-bezier(0.090, 1.015, 0.135, 1.000);
-   -moz-transition: top 1000ms cubic-bezier(0.090, 1.015, 0.135, 1.000);
-    -ms-transition: top 1000ms cubic-bezier(0.090, 1.015, 0.135, 1.000);
-     -o-transition: top 1000ms cubic-bezier(0.090, 1.015, 0.135, 1.000);
-        transition: top 1000ms cubic-bezier(0.090, 1.015, 0.135, 1.000); /* custom */
-
--webkit-transition-timing-function: cubic-bezier(0.090, 1, 0.135, 1.000); /* older webkit */
--webkit-transition-timing-function: cubic-bezier(0.090, 1.015, 0.135, 1.000);
-   -moz-transition-timing-function: cubic-bezier(0.090, 1.015, 0.135, 1.000);
-    -ms-transition-timing-function: cubic-bezier(0.090, 1.015, 0.135, 1.000);
-     -o-transition-timing-function: cubic-bezier(0.090, 1.015, 0.135, 1.000);
-        transition-timing-function: cubic-bezier(0.090, 1.015, 0.135, 1.000); /* custom */
 }
 
 .headerlink {
