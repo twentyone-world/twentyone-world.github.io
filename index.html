@@ -15,6 +15,7 @@ qtip: '/js/jquery.qtip.min.js'
         // Colors
         const cOrange = '#F2A900';
         const cGray = '#333';
+        const cDarkGray = '#222';
         const cDarkOrange = '#735000';
         const cDarkWhite = '#BBB';
 
@@ -42,23 +43,6 @@ qtip: '/js/jquery.qtip.min.js'
                 }
             });
 
-            map.addLayer('countries', {
-                title: function (d) { return d.name },
-                styles: {
-                    stroke: '#222',
-                    fill: cGray
-                },
-                mouseenter: function (d, path) {
-                    path.attr('fill', Math.random() < 0.5 ? cDarkOrange : cDarkWhite );
-                },
-                mouseleave: function (d, path) {
-                    path.animate({ fill: pathColors[d.iso] }, 1000);
-                },
-                click: function (d, path) {
-                    console.log(d.iso);
-                }
-            });
-
             $.ajax({
                 url: 'data/countries.json',
                 dataType: 'json',
@@ -68,11 +52,33 @@ qtip: '/js/jquery.qtip.min.js'
                         var hasLink = c.link ? true : false;
                         return hasLink;
                     });
+                    var orangeCountryCodes = orangeCountries.map(function(c) {
+                        return c.alpha3;
+                    });
+
+                    map.addLayer('countries', {
+                        title: function (d) { return d.name },
+                        styles: {
+                            stroke: cDarkGray,
+                            fill: cGray
+                        },
+                        mouseenter: function (d, path) {
+                            path.attr('fill', Math.random() < 0.5 ? cDarkOrange : cDarkWhite );
+                        },
+                        mouseleave: function (d, path) {
+                            path.animate({ fill: pathColors[d.iso] }, 1000);
+                        },
+                        click: function (d, path) {
+                            let country = countries.find(c => c.alpha3 == d.iso);
+                            if (country.link) {
+                                window.open(country.link);
+                            } else {
+                                window.open('/add');
+                            }
+                        }
+                    });
 
                     map.getLayer('countries').style('fill', function (data) {
-                        var orangeCountryCodes = orangeCountries.map(function(c) {
-                            return c.alpha3;
-                        });
                         var isOrangeCountry = orangeCountryCodes.includes(data.iso)
                         pathColors[data.iso] = isOrangeCountry ? cOrange : cGray;
                         return isOrangeCountry ? cOrange : cGray;
