@@ -84,7 +84,10 @@ Consequently, we have a saying: "Twentyone is what you make of it."
 Different folks will want to work on or emphasize different things, and that's
 perfectly fine. Let them, and more importantly: encourage them!
 
-Action button: Create a fork!
+<center>
+    <a href="/add" role="button" class="btn btn-primary btn-large btn-custom">Add Your Fork!</a>
+</center>
 
 # The Meme
-Image.
+
+![](images/thankyou.jpg)
