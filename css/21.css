@@ -5,7 +5,7 @@ body {
 	padding-top: 10px;
 	padding-bottom: 10px;
 	background-color: black;
-	color: gray;
+	color: #CCC;
 	padding: 30px;
 }
 
@@ -29,8 +29,13 @@ body {
 
 .content p, .content li, .content label {
 	font-family: Georgia, serif;
-	font-size: 15px;
-	line-height: 25px;
+	font-size: 1.2rem;
+	line-height: 1.8rem;
+}
+
+.content small {
+	font-size: 0.79rem;
+	color: #555;
 }
 
 .content label.checkbox input {
@@ -88,7 +93,9 @@ p>code {
 	border-color: #836548 #836548 hsl(29, 29%, 36%);
 	color: #fff !important;
 	text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.26);
+	min-width: 15em;
 	-webkit-font-smoothing: antialiased;
+	margin: 1em;
 }
 
 .btn-github {
