@@ -86,6 +86,11 @@ p>code {
 	font-size: 14px;
 }
 
+.footnotes > ol > li, .footnotes > ol > li > p {
+	font-size: 0.8rem;
+	line-height: normal;
+}
+
 .btn-custom {
 	background-color: hsl(29, 29%, 40%) !important;
 	font-size: 1.4rem;

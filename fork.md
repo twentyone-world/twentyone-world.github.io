@@ -37,9 +37,13 @@ dwadzieścia jeden, tjugoett, eίκοσι ένα, vingt-et-un, etc.
 The idea is simple: provide high-quality bitcoin-only content and create a space
 for bitcoiners in your country to connect, collaborate, and exchange ideas. 
 
-- Create a bitcoin-only beacon.
-- Translate the best bitcoin material to your native language.
-- Involve others once they find you.
+- Create a bitcoin-only beacon[^create]
+- Translate the best bitcoin material to your native language[^translate]
+- Involve others once they find you[^involve]
+
+[^create]: For us, this was a [weekly podcast](https://einundzwanzig.space/podcast/)
+[^translate]: For us, this was the Bitcoin Standard and many other [bitcoin resources](https://bitcoin-resources.com). The guys from [Aprycot Media](https://aprycot.media/) helped a ton.
+[^involve]: For us, this was the [Telegram community chat](https://einundzwanzig.space/telegram/).
 
 Everything else will grow organically from there. At least that's what happened
 in our case. We are still blown away by the response we got and keep getting,
@@ -105,3 +109,5 @@ perfectly fine. Let them, and more importantly: encourage them!
 ![](images/thankyou.jpg)
 
 [Back to the map](/)
+
+---
