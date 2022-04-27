@@ -81,6 +81,7 @@ p>code {
 
 .btn-custom {
 	background-color: hsl(29, 29%, 40%) !important;
+	font-size: 1.4rem;
 	background-repeat: repeat-x;
 	filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#af8d6e", endColorstr="#836548");
 	background-image: -khtml-gradient(linear, left top, left bottom, from(#af8d6e), to(#836548));
