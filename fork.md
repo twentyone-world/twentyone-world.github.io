@@ -28,7 +28,7 @@ Twentyone, translated into your language: [einundzwanzig], [yirmibir], [dvadeset
 jedan], veinte uno, njezet e nje, douăzeci și unu, huszonegy, ventuno,
 dwadzieścia jeden, tjugoett, eίκοσι ένα, vingt-et-un, etc.
 
-[einundzwanzig]: https://einundzwanzig.space/
+[einundzwanzig]: https://twitter.com/_einundzwanzig_
 [yirmibir]: https://twitter.com/YirmibirBitcoin
 [dvadeset jedan]: https://twitter.com/dvadesetjedan21/
 
