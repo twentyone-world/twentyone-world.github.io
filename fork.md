@@ -24,37 +24,47 @@ something pretty awesome, something that is worth spreading.
 
 # The Name
 
-Twentyone, translated into your language: einundzwanzig, yirmibir, dvadeset
-jedan, veinte uno, njezet e nje, douăzeci și unu, huszonegy, ventuno,
+Twentyone, translated into your language: [einundzwanzig], [yirmibir], [dvadeset
+jedan], veinte uno, njezet e nje, douăzeci și unu, huszonegy, ventuno,
 dwadzieścia jeden, tjugoett, eίκοσι ένα, vingt-et-un, etc.
+
+[einundzwanzig]: https://einundzwanzig.space/
+[yirmibir]: https://twitter.com/YirmibirBitcoin
+[dvadeset jedan]: https://twitter.com/dvadesetjedan21/
 
 # The Concept
 
 The idea is simple: provide high-quality bitcoin-only content and create a space
 for bitcoiners in your country to connect, collaborate, and exchange ideas. 
 
-1. Create a bitcoin-only beacon.
-2. Translate the best bitcoin material to your native language.
-3. Involve others once they find you.
+- Create a bitcoin-only beacon.
+- Translate the best bitcoin material to your native language.
+- Involve others once they find you.
 
-Everything else will grow organically from there. At least that's what happened in our case. We are still blown away by the response we got and keep getting, which is why we are open-sourcing the concept that worked for us. Feel free to copy the logo and the name, by the way.
+Everything else will grow organically from there. At least that's what happened
+in our case. We are still blown away by the response we got and keep getting,
+which is why we are open-sourcing [the concept that worked for us][concept]. Feel free to
+[copy the logo][logo] and the name, by the way.
+
+[concept]: https://einundzwanzig.space/files/EINUNDZWANZIG-WhatWorkedForUs.pdf
+[logo]: https://einundzwanzig.space/media/
 
 # The Trick
 
 There isn't one trick. There are three:
 
-- Do something public, something that scales.
-- Be consistent. Whatever you do, stick with it.
-- DON'T TRY TO DO EVERYTHING ON YOUR OWN!
+1. Do something public, something that scales.
+2. Be consistent. Whatever you do, stick with it.
+3. DON'T TRY TO DO EVERYTHING ON YOUR OWN!
 
 Re (1): I believe that a weekly or bi-weekly podcast is perfect in terms of
 scalability. It isn't that much work to produce, and it is something that can be
 easily found, easily consumed, and scales almost indefinitely. Other formats,
 such as a newsletter, probably work well too. But it's hard to beat the
-in-person character of a podcast. Find another bitcoiner and just shoot the shit
+in-person character of a podcast. **Find another bitcoiner** and just shoot the shit
 or discuss the news for an hour every week. 
 
-Re (2): This is probably the hardest part, but consistency is key. Whatever you
+Re (2): This is probably the hardest part, but **consistency is key**. Whatever you
 do, stick with it for a couple of months. You will be surprised how many
 bitcoiners are waiting in the shadows, just waiting to discover your beacon.
 
@@ -79,7 +89,7 @@ Bitcoin is different things to different people. Every country, every community,
 every family, and every individual has different wants and needs and a different
 understanding of what Bitcoin is and what it might be in the future.
 
-Consequently, we have a saying: "Twentyone is what you make of it."
+Consequently, we have a saying: "Twentyone is what *you* make of it."
 
 Different folks will want to work on or emphasize different things, and that's
 perfectly fine. Let them, and more importantly: encourage them!
