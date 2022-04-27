@@ -33,6 +33,14 @@ body {
 	line-height: 2rem;
 }
 
+.content p {
+	margin: 2rem 0;
+}
+
+.content li {
+	margin-left: 1.5rem;
+}
+
 .content small {
 	font-size: 0.79rem;
 	color: #555;
@@ -63,13 +71,12 @@ p>code {
 }
 
 .content ul, .content ol {
-	margin-top: 15px;
-	margin-bottom: 15px;
+	margin-top: 2rem;
+	margin-bottom: 2rem;
 }
 
 .content li {
-	margin-bottom: 0.4ex;
-	line-height: 25px;
+	margin-bottom: 0.5rem;
 }
 
 .sidebar p {
