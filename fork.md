@@ -46,6 +46,12 @@ in our case. We are still blown away by the response we got and keep getting,
 which is why we are open-sourcing [the concept that worked for us][concept]. Feel free to
 [copy the logo][logo] and the name, by the way.
 
+<center>
+    <a href="/">
+        <button type="button" class="btn btn-primary btn-large btn-custom">Add Your Fork</button>
+    </a>
+</center>
+
 [concept]: https://einundzwanzig.space/files/EINUNDZWANZIG-WhatWorkedForUs.pdf
 [logo]: https://einundzwanzig.space/media/
 
@@ -93,12 +99,6 @@ Consequently, we have a saying: "Twentyone is what *you* make of it."
 
 Different folks will want to work on or emphasize different things, and that's
 perfectly fine. Let them, and more importantly: encourage them!
-
-<center>
-    <a href="/">
-        <button type="button" class="btn btn-primary btn-large btn-custom">Add Your Fork</button>
-    </a>
-</center>
 
 # The Meme
 
