@@ -103,3 +103,5 @@ perfectly fine. Let them, and more importantly: encourage them!
 # The Meme
 
 ![](images/thankyou.jpg)
+
+[Back to the map](/)
