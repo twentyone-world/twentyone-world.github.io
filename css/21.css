@@ -30,7 +30,7 @@ body {
 .content p, .content li, .content label {
 	font-family: Georgia, serif;
 	font-size: 1.2rem;
-	line-height: 1.8rem;
+	line-height: 2rem;
 }
 
 .content small {
