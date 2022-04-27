@@ -47,7 +47,7 @@ which is why we are open-sourcing [the concept that worked for us][concept]. Fee
 [copy the logo][logo] and the name, by the way.
 
 <center>
-    <a href="/">
+    <a href="https://github.com/twentyone-world/twentyone-world.github.io/blob/main/CONTRIBUTING.md">
         <button type="button" class="btn btn-primary btn-large btn-custom">Add Your Fork</button>
     </a>
 </center>
