@@ -85,7 +85,9 @@ Different folks will want to work on or emphasize different things, and that's
 perfectly fine. Let them, and more importantly: encourage them!
 
 <center>
-    <a href="/add" role="button" class="btn btn-primary btn-large btn-custom">Add Your Fork!</a>
+    <a href="/">
+        <button type="button" class="btn btn-primary btn-large btn-custom">Add Your Fork</button>
+    </a>
 </center>
 
 # The Meme
