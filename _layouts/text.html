@@ -1,0 +1,27 @@
+---
+layout: core
+---
+
+	<div class="container">
+		<div class="row">
+			<div class="span6 offset6">
+				&nbsp;
+			</div>
+		</div>
+		<div class="row">
+
+			<div class="span6 offset3">
+				{% if page.headline %}
+				<div class="hero-unit"{% if page.headbg %} style="background:url({{page.headbg}})" {% endif %}>
+   					<h1>{{ page.headline }}</h1>
+				</div>
+				{% endif %}
+				<div class="content{% if page.class %} {{ page.class }}{% endif %}">
+					{{ content }}
+				</div>
+				<div class="footer">
+					Made with <a href="https://dergigi.com/support" target="_blank">🧡</a> by <a href="https://dergigi.com" target="_blank">Gigi</a>.
+				</div>
+			</div>
+		</div>
+	</div>
