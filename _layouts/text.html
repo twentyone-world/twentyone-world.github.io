@@ -9,14 +9,13 @@ layout: core
 			</div>
 		</div>
 		<div class="row">
-
-			<div class="span6 offset3">
+			<div class="span8 offset2">
 				{% if page.headline %}
 				<div class="hero-unit"{% if page.headbg %} style="background:url({{page.headbg}})" {% endif %}>
    					<h1>{{ page.headline }}</h1>
 				</div>
 				{% endif %}
-				<div class="content{% if page.class %} {{ page.class }}{% endif %}">
+				<div class="content">
 					{{ content }}
 				</div>
 				<div class="footer">

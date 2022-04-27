@@ -12,32 +12,38 @@
    <!-- Le fav and touch icons -->
    <link rel="shortcut icon" href="/favicon.ico">
 
-{% for style in page.styles %}
+<!-- {% for style in page.styles %}
    <link rel="stylesheet" href="{{ style }}" type="text/css" />
-{% endfor %}
+{% endfor %} -->
    <script type="text/javascript" src="/js/jquery-1.10.2.min.js"></script>
    <script type="text/javascript" src="/js/raphael-2.1.0.min.js"></script>
    <script type="text/javascript" src="/js/kartograph.js"></script>
 
 </head>
 <body>
-   <div class="span6 offset3">
-      <center><a href="/"><img src="images/logo-white.svg" width="100%"/></a></center>
+   <div id="wrap">
+      <div class="container">
+         <div class="row">
+            <div class="span8 offset2" style="margin-bottom: 1rem;">
+               <center><a href="/"><img src="images/logo-white.svg" width="100%"/></a></center>
+            </div>
+         </div>
+
+         {{ content }}
+      </div>
    </div>
 
-	{{ content }}
-
-<!-- Piwik -->
-<script type="text/javascript">
-var pkBaseURL = (("https:" == document.location.protocol) ? "https://piwik.kartograph.org/" : "http://piwik.kartograph.org/");
-document.write(unescape("%3Cscript src='" + pkBaseURL + "piwik.js' type='text/javascript'%3E%3C/script%3E"));
-</script><script type="text/javascript">
-try {
-var piwikTracker = Piwik.getTracker(pkBaseURL + "piwik.php", 14);
-piwikTracker.trackPageView();
-piwikTracker.enableLinkTracking();
-} catch( err ) {}
-</script><noscript><p><img src="http://piwik.kartograph.org/piwik.php?idsite=14" style="border:0" alt="" /></p></noscript>
-<!-- End Piwik Tracking Code -->
+   <!-- Piwik -->
+   <script type="text/javascript">
+   var pkBaseURL = (("https:" == document.location.protocol) ? "https://piwik.kartograph.org/" : "http://piwik.kartograph.org/");
+   document.write(unescape("%3Cscript src='" + pkBaseURL + "piwik.js' type='text/javascript'%3E%3C/script%3E"));
+   </script><script type="text/javascript">
+   try {
+   var piwikTracker = Piwik.getTracker(pkBaseURL + "piwik.php", 14);
+   piwikTracker.trackPageView();
+   piwikTracker.enableLinkTracking();
+   } catch( err ) {}
+   </script><noscript><p><img src="http://piwik.kartograph.org/piwik.php?idsite=14" style="border:0" alt="" /></p></noscript>
+   <!-- End Piwik Tracking Code -->
 </body>
 </html>
