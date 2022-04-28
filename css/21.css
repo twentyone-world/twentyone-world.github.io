@@ -177,6 +177,11 @@ h3:hover .headerlink {
 
 @media screen and (max-width: 979px) {
 
+	.container {
+		padding-left: 0;
+		padding-right: 0;
+	}
+
 	.content p, .content li {
 		font-size: 1rem;
 		line-height: 1.5rem;
