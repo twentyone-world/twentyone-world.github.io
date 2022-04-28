@@ -35,10 +35,10 @@ dwadzieścia jeden, tjugoett, είκοσι ένα, vingt-et-un, etc.
 
 ## The Concept
 
-The idea is simple: provide high-quality bitcoin-only content and create a space
+The idea is simple: provide localized, high-quality, bitcoin-only content and create a space
 for bitcoiners in your country to connect, collaborate, and exchange ideas. 
 
-- Create a bitcoin-only beacon[^create]
+- Create a localized bitcoin-only beacon[^create]
 - Translate the best bitcoin material to your native language[^translate]
 - Involve others once they find you[^involve]
 
