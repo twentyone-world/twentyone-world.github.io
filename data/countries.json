@@ -206,7 +206,9 @@
     "alpha3": "BIH",
     "numeric": 70,
     "latitude": 44,
-    "longitude": 18
+    "longitude": 18,
+    "name": "Dvadeset Jedan",
+    "link": "https://twitter.com/dvadesetjedan21/"
   },
   {
     "country": "Botswana",
@@ -422,7 +424,9 @@
     "alpha3": "HRV",
     "numeric": 191,
     "latitude": 45.1667,
-    "longitude": 15.5
+    "longitude": 15.5,
+    "name": "Dvadeset Jedan",
+    "link": "https://twitter.com/dvadesetjedan21/"
   },
   {
     "country": "Cuba",
@@ -1160,7 +1164,9 @@
     "alpha3": "MNE",
     "numeric": 499,
     "latitude": 42,
-    "longitude": 19
+    "longitude": 19,
+    "name": "Dvadeset Jedan",
+    "link": "https://twitter.com/dvadesetjedan21/"
   },
   {
     "country": "Montserrat",
@@ -1536,7 +1542,9 @@
     "alpha3": "SRB",
     "numeric": 688,
     "latitude": 44,
-    "longitude": 21
+    "longitude": 21,
+    "name": "Dvadeset Jedan",
+    "link": "https://twitter.com/dvadesetjedan21/"
   },
   {
     "country": "Seychelles",
