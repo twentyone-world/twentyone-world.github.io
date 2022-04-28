@@ -108,6 +108,6 @@ perfectly fine. Let them, and more importantly: encourage them!
 
 ![](images/thankyou.jpg)
 
-[Back to the map](/)
+[← Back to the map](/)
 
 ---
