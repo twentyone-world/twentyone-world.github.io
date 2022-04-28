@@ -2,21 +2,12 @@
 layout: core
 ---
 
+<div id="wrap">
 	<div class="container">
-		<div class="row">
-			<div class="span12">
-				{% if page.headline %}
-				<div class="hero-unit"{% if page.headbg %} style="background:url({{page.headbg}})" {% endif %}>
-   					<h1>{{ page.headline }}</h1>
-				</div>
-				{% endif %}
-				<div class="content{% if page.class %} {{ page.class }}{% endif %}">
-					{{ content }}
-				</div>
-				<div class="footer">
-					<p align="right">Looking for bitcoin-only meetups? Have a look at <a href="https://bitcoin-only.com/meetups" target="_blank">bitcoin-only.com/meetups</a></p>
-					Made with <a href="https://dergigi.com/support" target="_blank">🧡</a> by <a href="https://dergigi.com" target="_blank">Gigi</a>.
-				</div>
-			</div>
-		</div>
+		{% include logo.html %}
 	</div>
+
+	{{ content }}
+
+	{% include footer.html %}
+</div>
