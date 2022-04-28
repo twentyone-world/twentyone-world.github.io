@@ -93,7 +93,7 @@ p>code {
 
 .btn-custom {
 	background-color: hsl(29, 29%, 40%) !important;
-	font-size: 1.4rem;
+	font-size: 1.2em;
 	background-repeat: repeat-x;
 	filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#af8d6e", endColorstr="#836548");
 	background-image: -khtml-gradient(linear, left top, left bottom, from(#af8d6e), to(#836548));
@@ -106,9 +106,9 @@ p>code {
 	border-color: #836548 #836548 hsl(29, 29%, 36%);
 	color: #fff !important;
 	text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.26);
-	min-width: 15em;
+	min-width: 33%;
 	-webkit-font-smoothing: antialiased;
-	margin: 1em;
+	margin: 1em 0;
 }
 
 ul.thumbnails li {
