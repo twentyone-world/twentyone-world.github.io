@@ -56,9 +56,22 @@ title: Twentyone.World
                         }
                         return cGray;
                     }
+                    function basedName(iso) {
+                        let country = countries.find(c => c.alpha3 == iso);
+                        if (country && country.country && country.name) {
+                            return country.country + ": " + country.name;
+                        }
+                        return "";
+                    }
 
                     map.addLayer('countries', {
-                        title: function (d) { return d.name },
+                        title: function (d) { 
+                            if (isBased(d.iso)) {
+                                return basedName(d.iso);
+                            } else {
+                                return d.name;
+                            }
+                        },
                         styles: {
                             stroke: cDarkGray,
                             fill: cGray
