@@ -926,7 +926,9 @@
     "alpha3": "KOR",
     "numeric": 410,
     "latitude": 37,
-    "longitude": 127.5
+    "longitude": 127.5,
+    "name": "Bitcoin Korea 비트코인 코리아",
+    "link": "https://bitcoinkr.org"
   },
   {
     "country": "Kuwait",
