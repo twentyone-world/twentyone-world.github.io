@@ -26,7 +26,7 @@ something pretty awesome, something that is worth spreading.
 
 Twentyone, translated into your language: [einundzwanzig], [yirmibir], [dvadeset
 jedan], veinte uno, [njëzet e një][nen], douăzeci și unu, huszonegy, ventuno,
-dwadzieścia jeden, tjugoett, eίκοσι ένα, vingt-et-un, etc.
+dwadzieścia jeden, tjugoett, είκοσι ένα, vingt-et-un, etc.
 
 [einundzwanzig]: https://twitter.com/_einundzwanzig_
 [yirmibir]: https://twitter.com/YirmibirBitcoin
