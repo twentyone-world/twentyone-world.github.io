@@ -119,29 +119,6 @@ ul.thumbnails li {
 	font-family: Garamond, 'Garamond classico', Baskerville, "Baskerville Old Face", "Hoefler Text", "Times New Roman", serif;
 }
 
-.content.docs h2 {
-	border-bottom: 1px solid #ddd;
-	padding-bottom: 5px;
-}
-
-.content.docs h3 {
-	margin: 30px 0 20px;
-	font-size: 28px;
-	font-weight: normal;
-}
-
-.content.docs .source {
-	font-size: 13px;
-	text-align: right;
-	color: #999;
-}
-
-.content.docs .source a {
-	color: #888;
-	border-bottom: 1px dotted #888;
-
-}
-
 .headerlink {
 	color: #ccc;
 	font-family: Georgia;
