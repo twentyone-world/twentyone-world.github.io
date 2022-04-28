@@ -5,7 +5,7 @@ title: What the Fork?
 
 Are you creating bitcoin-only content in your native language? Is your thing called "twentyone" in whatever language you are speaking? Congratulations, you have a twentyone fork!
 
-<small>(If you have a different name, that's cool too.)</small>
+<small>(If you choose a different name, that's cool too.)</small>
 
 But seriously, we want to encourage you to copy the concept that worked for us
 and modify it to your needs. In other words: to fork it.
