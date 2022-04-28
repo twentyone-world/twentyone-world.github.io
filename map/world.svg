@@ -2,12 +2,12 @@
 <!DOCTYPE svg PUBLIC '-//W3C//DTD SVG 1.1//EN' 'http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd'>
 <svg
   enable_background="new 0 0 1000 525"
-  height="525px"
+  height="476.32001"
   pretty_print="False"
-  style="stroke-linejoin: round; stroke:#000; fill: none;"
+  style="fill:none;stroke:#000000;stroke-linejoin:round"
   version="1.1"
-  viewBox="0 0 1000 525"
-  width="1000px"
+  viewBox="0 0 950.5896 476.32001"
+  width="950.5896"
   xmlns="http://www.w3.org/2000/svg"
   xmlns:xlink="http://www.w3.org/1999/xlink">
   <defs>
@@ -21,10 +21,23 @@
   </defs>
   <metadata>
     <views>
-      <view h="525.010727376" padding="0.03" w="1000"><proj flip="auto" id="naturalearth" lon0="0"/><bbox h="463.56" w="884.64" x="95.31" y="-3.13"/></view>
+      <view
+         h="525.010727376"
+         padding="0.03"
+         w="1000">
+        <proj
+           flip="auto"
+           id="naturalearth"
+           lon0="0" />
+        <bbox
+           h="463.56"
+           w="884.64"
+           x="95.31"
+           y="-3.13" />
+      </view>
     </views>
   </metadata>
-  <g class="" id="countries"><path
+  <g class="" id="countries" transform="translate(-20.210315,-27.82)"><path
     d="M687.20,185.87L688.68,188.96L687.36,191.79L689.20,195.61L690.07,195.53L697.12,200.63L699.84,199.56L705.90,203.27L710.26,206.83L714.66,207.55L721.73,209.91L723.60,207.40L725.44,206.87L729.91,208.10L733.01,208.00L734.28,205.51L737.93,203.26L741.81,202.63L743.27,206.36L748.57,207.11L748.70,207.13L750.07,200.49L746.58,193.56L743.88,191.54L741.01,194.39L739.71,194.52L734.58,191.08L733.38,191.78L730.41,191.10L724.66,188.77L721.00,188.11L719.27,186.64L718.63,183.28L717.18,181.47L716.76,178.88L713.29,177.63L706.94,178.72L706.68,179.76L700.12,181.44L696.47,180.26L694.21,181.82L690.33,181.16L690.08,183.81L687.46,185.74L687.20,185.87Z "
     data-iso="TIB"
     data-name="Tibet"
