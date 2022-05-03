@@ -52,7 +52,7 @@ for bitcoiners in your country to connect, collaborate, and exchange ideas.
 Everything else will grow organically from there. At least that's what happened
 in our case. We are still blown away by the response we got and keep getting,
 which is why we are open-sourcing [the concept that worked for us][concept]. Feel free to
-[copy the logo][logo] and the name, by the way.
+[fork the logo][logo] and the name, by the way.
 
 <center>
     <a href="/checklist">
