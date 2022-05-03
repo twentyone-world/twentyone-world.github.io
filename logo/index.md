@@ -26,6 +26,14 @@ You can use [Inkscape][inkscape][^inkscape] to modify the SVG files to your need
 [^bold]: Free font by New Bold Times, [dafont.com](https://www.dafont.com/the-bold-font.font)
 [^inkscape]: Inkscape is free, libre, open-source software, [inkscape.org][inkscape]
 
+## Existing Forks
+
+{% for image in site.static_files %}
+{% if image.path contains 'logo/forks' %}
+![]({{ image.path }})
+{% endif %}
+{% endfor %}
+
 [← Back to /fork](/fork)
 
 ---
