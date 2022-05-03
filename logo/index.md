@@ -34,6 +34,8 @@ You can use [Inkscape][inkscape][^inkscape] to modify the SVG files to your need
 {% endif %}
 {% endfor %}
 
+Did you create a fork and your logo isn't listed above? Add your logo to [this folder](https://github.com/twentyone-world/twentyone-world.github.io/tree/main/logo/forks) to make it appear above! 
+
 [← Back to /fork](/fork)
 
 ---
