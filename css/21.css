@@ -71,6 +71,17 @@ p>code {
 	margin-bottom: 2rem;
 }
 
+.content ol {
+    counter-reset: num -1;
+}
+.content ol li {
+    list-style-type: none;
+}
+.content ol li:before {
+    counter-increment: num;
+    content: counter(num) ". ";
+}
+
 .content li {
 	margin-bottom: 0.5rem;
 }
