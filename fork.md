@@ -59,7 +59,11 @@ which is why we are open-sourcing [the concept that worked for us][concept]. Fee
 </center>
 
 [concept]: https://einundzwanzig.space/files/EINUNDZWANZIG-WhatWorkedForUs.pdf
-[logo]: https://einundzwanzig.space/media/
+[logo]: /logo
+
+## The Logo
+
+Find some inspiration and all required assets [here][logo].
 
 ## The Trick
 
