@@ -39,6 +39,8 @@ translates to "twentyone" the country will be colored orange.
 The idea is simple: provide localized, high-quality, bitcoin-only content and create a space
 for bitcoiners in your country to connect, collaborate, and exchange ideas. 
 
+[The steps](/checklist) are also simple:
+
 - Create a localized bitcoin-only beacon[^create]
 - Translate the best bitcoin material to your native language[^translate]
 - Involve others once they find you[^involve]
