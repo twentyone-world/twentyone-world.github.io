@@ -13,6 +13,13 @@ title: Checklist
 6. **[Be consistent][consistency]** <br/>This is key. Whatever you do, stick with it for at least 21 weeks.
 
 
+<center>
+    <h2>Did all that?</h2>
+    <a href="https://github.com/twentyone-world/twentyone-world.github.io/blob/main/CONTRIBUTING.md">
+        <button type="button" class="btn btn-primary btn-large btn-custom">Add Your Fork!</button>
+    </a>
+</center>
+
 [twentyone]: /fork#the-name
 [list of articles]: https://bitcoin-resources.com/#articles
 [podcast]: /fork#the-trick
