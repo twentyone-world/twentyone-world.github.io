@@ -1,3 +1,9 @@
+@font-face {
+	font-family: 'The Bold Font';
+	src: local('The Bold Font'),
+		url("/logo/TheBoldFont.ttf") format("ttf");
+}
+
 body {
 	font-family: Georgia, serif;
 	font-size: 14px;

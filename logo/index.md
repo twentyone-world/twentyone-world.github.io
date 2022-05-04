@@ -7,12 +7,12 @@ To keep it simple: "twentyone", translated to your local language, [bold font], 
 
 Like this, but not in English:
 
-![](/logo/twentyone.svg)
+![](/logo/paths/twentyone.svg)
 
 Some forks also use a square or multi-line style:
 
-![](/logo/twe-nty-one.svg)
-![](/logo/twenty-one.svg)
+![](/logo/paths/twe-nty-one.svg)
+![](/logo/paths/twenty-one.svg)
 
 ## Download Template & Font
 
@@ -27,6 +27,8 @@ You can use [Inkscape][inkscape][^inkscape] to modify the SVG files to your need
 [^inkscape]: Inkscape is free, libre, open-source software, [inkscape.org][inkscape]
 
 ## Existing Forks
+
+Make sure to have [The Bold Font][bold font] installed, or some of the below might render weird.
 
 {% for image in site.static_files %}
 {% if image.path contains 'logo/forks' %}
