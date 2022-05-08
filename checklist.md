@@ -26,7 +26,7 @@ title: Checklist
 [beacon]: /fork#the-concept
 [logo]: /logo
 [group]: /fork#the-trick
-[translations]: /fork#the-concept
+[translations]: /translations
 [consistency]: /fork#the-trick
 
 
