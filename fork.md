@@ -25,7 +25,7 @@ something pretty awesome, something that is worth spreading.
 ## The Name
 
 Twentyone, translated into your language: [einundzwanzig], [yirmibir], [dvadeset
-jedan], veinte uno, [njëzet e një][nen], douăzeci și unu, huszonegy, ventuno,
+jedan], veinte uno, [njëzet e një][nen], douăzeci și unu, huszonegy, [ventuno],
 dwadzieścia jeden, tjugoett, είκοσι ένα, vingt-et-un, and so on. If the name
 translates to "twentyone" the country will be colored orange.
 
@@ -33,6 +33,7 @@ translates to "twentyone" the country will be colored orange.
 [yirmibir]: https://twitter.com/YirmibirBitcoin
 [dvadeset jedan]: https://twitter.com/dvadesetjedan21/
 [nen]: https://twitter.com/_njezetenje
+[ventuno]: https://t.me/ventunobtc
 
 ## The Concept
 
