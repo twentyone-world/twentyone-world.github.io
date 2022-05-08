@@ -4,7 +4,7 @@ title: Checklist
 ---
 
 
-0. **[Find another bitcoiner][podcast]** <br/>Don't try to do it alone.
+0. **[Find another bitcoiner][teamup]** <br/>Don't try to do it alone.
 1. **[Fork the name][twentyone]** <br/>Translate "twentyone" into your local language.
 2. **[Fork the logo][logo]** <br/>Feel free to be creative!
 3. **[Create a beacon][beacon]** <br/>A [podcast] is easiest and works best. 
@@ -24,6 +24,7 @@ title: Checklist
 [podcast]: /podcast
 [beacon]: /fork#the-concept
 [logo]: /logo
+[teamup]: /fork#the-trick
 [group]: /fork#the-trick
 [translations]: /translations
 [consistency]: /fork#the-trick
