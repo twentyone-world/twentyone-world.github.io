@@ -67,6 +67,12 @@ which is why we are open-sourcing [the concept that worked for us][concept]. Fee
 
 Find some inspiration and all required assets [here][logo].
 
+## The Translations
+
+Localized content is absolutely paramount. Not everyone is fluent in English, and Bitcoin is complicated enough as it is. 
+
+Find a list of articles at [/translations](/translations).
+
 ## The Trick
 
 There isn't one trick. There are three:
