@@ -42,7 +42,7 @@ for bitcoiners in your country to connect, collaborate, and exchange ideas.
 [The steps](/checklist) are also simple:
 
 - Create a localized bitcoin-only beacon[^create]
-- Translate the best bitcoin material to your native language[^translate]
+- [Translate](/translations) the best bitcoin material to your native language[^translate]
 - Involve others once they find you[^involve]
 
 [^create]: For us, this was a [weekly podcast](https://einundzwanzig.space/podcast/)
