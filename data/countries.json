@@ -854,7 +854,9 @@
     "alpha3": "ITA",
     "numeric": 380,
     "latitude": 42.8333,
-    "longitude": 12.8333
+    "longitude": 12.8333,
+    "name": "Ventuno",
+    "link": "https://t.me/ventunobtc"
   },
   {
     "country": "Jamaica",
