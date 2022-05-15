@@ -4,6 +4,7 @@ title: Concept
 ---
 
 ## Team Up
+{% include image.html name="handshake.svg" float="right" %}
 
 Step zero is to find another bitcoiner. It is way easier and way more fun. Don’t
 try to do everything on your own, so let me repeat this once more: find another
@@ -18,6 +19,7 @@ Step one: create a beacon in cyberspace. Something that is easy to find and easy
 to consume. Something that other bitcoiners can rally around. Something with low
 noise and high signal.
 
+{% include image.html name="beacon.svg" %}
 A weekly or bi-weekly [podcast] is perfect in terms of scalability. It isn’t that
 much work to produce, and it is something that can be easily found, easily
 consumed, and scales almost indefinitely. Other formats, such as a newsletter,
@@ -27,6 +29,7 @@ the news for an hour every week. Feel free to [fork the logo][logo] and the [nam
 case you want to stick with the twentyone theme.
 
 ## Provide a Space
+{% include image.html name="space.svg" float="right" %}
 
 With the beacon in place, provide a space so that other bitcoiners can join in.
 A public group chat works well. Telegram, Matrix, IRC, Discord—what tool you use
@@ -38,6 +41,7 @@ and localized, but globally connected.
 Be welcoming but vigilant, and always remember that everyone is a scammer.
 
 ## Translate Content
+{% include image.html name="translation.svg" %}
 
 There is no shortage of great educational content. Unfortunately, most of it is
 in English. The importance of localized educational material can’t be
@@ -50,6 +54,7 @@ would love to get involved and help with translations.
 Here is a [list of articles][translations] to get you started.
 
 ## Be Consistent
+{% include image.html name="consistency.svg" float="right" %}
 
 Consistency is key. Your beacon should provide a steady signal for yourself and
 others. It will be hard at first, but if you and your friend have been in
