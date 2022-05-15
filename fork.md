@@ -35,16 +35,16 @@ translates to "twentyone" the country will be colored orange.
 [nen]: https://twitter.com/_njezetenje
 [ventuno]: https://t.me/ventunobtc
 
-## The Concept
+## [The Concept](/concept)
 
-The idea is simple: provide localized, high-quality, bitcoin-only content and create a space
+- **Team Up:** find another bitcoiner.
+- **Create a Beacon**: localized, bitcoin-only, high signal.[^create]
+- **Provide a Space**: a chat group or similar.[^involve]
+- **Translate Content**: articles, books, etc.[^translate]
+- **Be consistent**: stick with it for 21 weeks.
+
+In short: provide localized, high-quality, bitcoin-only content and create a space
 for bitcoiners in your country to connect, collaborate, and exchange ideas. 
-
-[The steps](/checklist) are also simple:
-
-- [Create](/podcast) a localized bitcoin-only beacon[^create]
-- [Translate](/translations) the best bitcoin material to your native language[^translate]
-- Involve others once they find you[^involve]
 
 [^create]: For us, this was a [weekly podcast](https://einundzwanzig.space/podcast/)
 [^translate]: For us, this was the Bitcoin Standard and many other [bitcoin resources](https://bitcoin-resources.com). The guys from [Aprycot Media](https://aprycot.media/) helped a ton.
