@@ -6,7 +6,7 @@ title: Concept
 ## Team Up
 {% include image.html name="handshake.svg" float="right" %}
 
-Step zero is to find another bitcoiner. It is way easier and way more fun. Don’t
+Step zero is to **find another bitcoiner**. It is way easier and way more fun. Don’t
 try to do everything on your own, so let me repeat this once more: find another
 bitcoiner and team up. 
 
@@ -15,7 +15,7 @@ are two, you can get rolling.
 
 ## Create a Beacon
 
-Step one: create a beacon in cyberspace. Something that is easy to find and easy
+Step one: **create a beacon in cyberspace**. Something that is easy to find and easy
 to consume. Something that other bitcoiners can rally around. Something with low
 noise and high signal.
 
@@ -31,7 +31,7 @@ case you want to stick with the twentyone theme.
 ## Provide a Space
 {% include image.html name="space.svg" float="right" %}
 
-With the beacon in place, provide a space so that other bitcoiners can join in.
+With the beacon in place, **provide a space so that other bitcoiners can join in**.
 A public group chat works well. Telegram, Matrix, IRC, Discord—what tool you use
 is probably not too important. What is important is to have a solid group of
 people in place: bitcoin plebs that are in it for the revolution, not for the
@@ -47,7 +47,7 @@ There is no shortage of great educational content. Unfortunately, most of it is
 in English. The importance of localized educational material can’t be
 overstated.
 
-Start an effort to translate the best books and articles into your local
+**Start an effort to translate the best content** into your local
 language. Remember to involve the community. You’d be surprised how many people
 would love to get involved and help with translations.
 
@@ -61,8 +61,8 @@ others. It will be hard at first, but if you and your friend have been in
 bitcoin for a while it should be trivial to talk about current events and/or how
 bitcoin works for an hour every week.
 
-Try to stick with it for at least 21 weeks. Patience and consistency, and the
-rest will happen on its own.
+**Stick with it for at least 21 weeks.** All you need is some patience and
+consistency, and the rest will happen on its own.
 
 
 
