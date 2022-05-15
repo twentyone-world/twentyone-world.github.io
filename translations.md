@@ -20,6 +20,12 @@ the [Nakamoto Institute][sni].
 
 A list of translated articles can be found at [European Bitcoiners][eb].
 
+Also, make sure to check out [Bitcoin for Local
+Business](https://bitcoinforlocalbusiness.com/) and translate the flyer they
+created.
+
+<a href="https://bitcoinforlocalbusiness.com/" target="_blank"><img src="/images/localbusiness.svg"/></a>
+
 [br]: https://bitcoin-resources.com/articles/
 [sni]: https://satoshi.nakamotoinstitute.org/
 [eb]: https://europeanbitcoiners.com/
