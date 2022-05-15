@@ -28,6 +28,3 @@ title: Checklist
 [group]: /fork#the-trick
 [translations]: /translations
 [consistency]: /fork#the-trick
-
-
-[← Back to /fork](/fork)

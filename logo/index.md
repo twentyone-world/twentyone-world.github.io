@@ -38,9 +38,6 @@ Make sure to have [The Bold Font][bold font] installed, or some of the below mig
 
 Did you create a fork and your logo isn't listed above? Add your logo to [this folder](https://github.com/twentyone-world/twentyone-world.github.io/tree/main/logo/forks) to make it appear above! 
 
-[← Back to /fork](/fork)
-
----
 
 [inkscape]: https://inkscape.org/
 [bold font]: {{ '/logo/the_bold_font.zip' | absolute_url }}

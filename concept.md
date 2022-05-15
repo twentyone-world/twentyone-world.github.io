@@ -65,11 +65,6 @@ bitcoin works for an hour every week.
 consistency, and the rest will happen on its own.
 
 
-
-[← Back to the map](/)
-
----
-
 [podcast]: /podcast
 [logo]: /logo
 [name]: /fork#the-name

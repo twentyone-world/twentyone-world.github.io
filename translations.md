@@ -23,7 +23,3 @@ A list of translated articles can be found at [European Bitcoiners][eb].
 [br]: https://bitcoin-resources.com/articles/
 [sni]: https://satoshi.nakamotoinstitute.org/
 [eb]: https://europeanbitcoiners.com/
-
-[← Back to the map](/)
-
----
