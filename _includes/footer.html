@@ -1,13 +1,19 @@
 <div class="footer">
-        <p align="right">
-        {% for page in site.pages %}
+        <p align="center">
+                |
+                {% for page in site.pages %}
                 {% if page.path contains ".md" %}
-                        <a href="{{ page.url }}">{{ page.title }}</a> |
+                <a href="{{ page.url }}">{{ page.title }}</a> |
                 {% endif %}
-        {% endfor %}
-
-        Looking for bitcoin-only meetups? Have a look at <a href="https://bitcoin-only.com/meetups"
-                        target="_blank">bitcoin-only.com/meetups</a></p>
-        Made with <a href="https://dergigi.com/support" target="_blank">🧡</a> by <a href="https://dergigi.com"
+                {% endfor %}
+        </p>
+        <p align="center">
+                <b>Looking for bitcoin-only meetups?</b></br>
+                Have a look at <a href="https://bitcoin-only.com/meetups" target="_blank">bitcoin-only.com/meetups</a>
+                and <a href="https://www.bitcoinerevents.com/" target="_blank">bitcoinerevents.com</a>
+        </p>
+        <p align="center">
+                Made with <a href="https://dergigi.com/support" target="_blank">🧡</a> by <a href="https://dergigi.com"
                 target="_blank">Gigi</a>.
+        </p>
 </div>
