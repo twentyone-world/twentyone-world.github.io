@@ -25,7 +25,7 @@ something pretty awesome, something that is worth spreading.
 ## The Name
 
 Twentyone, translated into your language: [einundzwanzig], [yirmibir], [dvadeset
-jedan], veinte uno, [njëzet e një][nen], douăzeci și unu, huszonegy, [ventuno],
+jedan], [veinteuno], [njëzet e një][nen], douăzeci și unu, huszonegy, [ventuno],
 dwadzieścia jeden, tjugoett, είκοσι ένα, vingt-et-un, and so on. If the name
 translates to "twentyone" the country will be colored orange.
 
@@ -34,6 +34,7 @@ translates to "twentyone" the country will be colored orange.
 [dvadeset jedan]: https://twitter.com/dvadesetjedan21/
 [nen]: https://twitter.com/_njezetenje
 [ventuno]: https://t.me/ventunobtc
+[veinte uno]: https://t.me/+tTSehfz-7KcxNzQ0
 
 ## [The Concept](/concept)
 
