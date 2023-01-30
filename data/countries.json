@@ -1402,7 +1402,9 @@
     "alpha3": "POL",
     "numeric": 616,
     "latitude": 52,
-    "longitude": 20
+    "longitude": 20,
+    "name": "Dwadzieścia Jeden",
+    "link": "https://dwadziesciajeden.pl"
   },
   {
     "country": "Portugal",
