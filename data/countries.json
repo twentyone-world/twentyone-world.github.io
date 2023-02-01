@@ -508,7 +508,10 @@
     "alpha3": "SLV",
     "numeric": 222,
     "latitude": 13.8333,
-    "longitude": -88.9167
+    "longitude": -88.9167,
+    "name": "VEINTIUNO",
+    "link": "https://veintiuno.world"
+
   },
   {
     "country": "Equatorial Guinea",
