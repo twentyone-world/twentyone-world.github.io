@@ -64,6 +64,12 @@ bitcoin works for an hour every week.
 **Stick with it for at least 21 weeks.** All you need is some patience and
 consistency, and the rest will happen on its own.
 
+<center>
+    <h2>Ready to get started?</h2>
+    <a href="/checklist">
+        <button type="button" class="btn btn-primary btn-large btn-custom">Work through the Checklist</button>
+    </a>
+</center>
 
 [podcast]: /podcast
 [logo]: /logo
