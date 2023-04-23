@@ -1415,7 +1415,9 @@
     "alpha3": "PRT",
     "numeric": 620,
     "latitude": 39.5,
-    "longitude": -8
+    "longitude": -8,
+    "name": "Vinte e Um",
+    "link": "https://t.me/vinteeumpt"
   },
   {
     "country": "Puerto Rico",
