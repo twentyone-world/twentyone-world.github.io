@@ -6,7 +6,7 @@
     "latitude": 41,
     "longitude": 20,
     "name": "Njëzet e një",
-    "link": "https://twitter.com/_njezetenje/"
+    "link_to_public_community_group": "https://twitter.com/_njezetenje/"
   },
   {
     "country": "Algeria",
@@ -104,7 +104,7 @@
     "latitude": 47.3333,
     "longitude": 13.3333,
     "name": "EINUNDZWANZIG",
-    "link": "https://einundzwanzig.space/meetups"
+    "link_to_public_community_group": "https://einundzwanzig.space/meetups"
   },
   {
     "country": "Azerbaijan",
@@ -210,7 +210,7 @@
     "latitude": 44,
     "longitude": 18,
     "name": "Dvadeset Jedan",
-    "link": "https://twitter.com/dvadesetjedan21/"
+    "link_to_public_community_group": "https://twitter.com/dvadesetjedan21/"
   },
   {
     "country": "Botswana",
@@ -428,7 +428,7 @@
     "latitude": 45.1667,
     "longitude": 15.5,
     "name": "Dvadeset Jedan",
-    "link": "https://twitter.com/dvadesetjedan21/"
+    "link_to_public_community_group": "https://twitter.com/dvadesetjedan21/"
   },
   {
     "country": "Cuba",
@@ -510,7 +510,7 @@
     "latitude": 13.8333,
     "longitude": -88.9167,
     "name": "VEINTIUNO",
-    "link": "https://veintiuno.world"
+    "link_to_public_community_group": "https://veintiuno.world"
 
   },
   {
@@ -641,7 +641,7 @@
     "latitude": 51,
     "longitude": 9,
     "name": "EINUNDZWANZIG",
-    "link": "https://einundzwanzig.space/meetups"
+    "link_to_public_community_group": "https://einundzwanzig.space/meetups"
   },
   {
     "country": "Ghana",
@@ -859,7 +859,7 @@
     "latitude": 42.8333,
     "longitude": 12.8333,
     "name": "Ventuno",
-    "link": "https://t.me/ventunobtc"
+    "link_to_public_community_group": "https://t.me/ventunobtc"
   },
   {
     "country": "Jamaica",
@@ -1173,7 +1173,7 @@
     "latitude": 42,
     "longitude": 19,
     "name": "Dvadeset Jedan",
-    "link": "https://twitter.com/dvadesetjedan21/"
+    "link_to_public_community_group": "https://twitter.com/dvadesetjedan21/"
   },
   {
     "country": "Montserrat",
@@ -1407,7 +1407,7 @@
     "latitude": 52,
     "longitude": 20,
     "name": "Dwadzieścia Jeden",
-    "link": "https://dwadziesciajeden.pl"
+    "link_to_public_community_group": "https://dwadziesciajeden.pl"
   },
   {
     "country": "Portugal",
@@ -1417,7 +1417,7 @@
     "latitude": 39.5,
     "longitude": -8,
     "name": "Vinte e Um",
-    "link": "https://t.me/vinteeumpt"
+    "link_to_public_community_group": "https://t.me/vinteeumpt"
   },
   {
     "country": "Puerto Rico",
@@ -1555,7 +1555,7 @@
     "latitude": 44,
     "longitude": 21,
     "name": "Dvadeset Jedan",
-    "link": "https://twitter.com/dvadesetjedan21/"
+    "link_to_public_community_group": "https://twitter.com/dvadesetjedan21/"
   },
   {
     "country": "Seychelles",
@@ -1693,7 +1693,7 @@
     "latitude": 47,
     "longitude": 8,
     "name": "EINUNDZWANZIG",
-    "link": "https://einundzwanzig.space/meetups"
+    "link_to_public_community_group": "https://einundzwanzig.space/meetups"
   },
   {
     "country": "Syrian Arab Republic",
@@ -1791,7 +1791,7 @@
     "latitude": 39,
     "longitude": 35,
     "name": "Yirmibir",
-    "link": "https://t.me/YirmibirBitcoin"
+    "link_to_public_community_group": "https://t.me/YirmibirBitcoin"
   },
   {
     "country": "Turkmenistan",
@@ -1857,7 +1857,7 @@
     "latitude": 38,
     "longitude": -97,
     "name": "TFTC",
-    "link": "https://tftc.io/",
+    "link_to_public_community_group": "https://tftc.io/",
     "external": true
   },
   {

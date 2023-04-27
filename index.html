@@ -40,7 +40,7 @@ title: Twentyone.World
                 success: function (countries) {
 
                     var basedCountries = countries.filter(function hasLink(c) {
-                        var hasLink = c.link ? true : false;
+                        var hasLink = c.link_to_public_community_group ? true : false;
                         return hasLink;
                     });
                     var basedCountryCodes = basedCountries.map(function(c) {
@@ -51,7 +51,7 @@ title: Twentyone.World
                     }
                     function getColor(iso) {
                         let country = countries.find(c => c.alpha3 == iso);
-                        if (country && country.link) {
+                        if (country && country.link_to_public_community_group) {
                             return country.external ? cWhite : cOrange;
                         }
                         return cGray;
@@ -90,8 +90,8 @@ title: Twentyone.World
                         },
                         click: function (d, path) {
                             let country = countries.find(c => c.alpha3 == d.iso);
-                            if (country.link) {
-                                window.open(country.link);
+                            if (country.link_to_public_community_group) {
+                                window.open(country.link_to_public_community_group);
                             } else {
                                 window.open('/fork');
                             }
