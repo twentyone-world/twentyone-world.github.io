@@ -53,7 +53,7 @@ would love to get involved and help with translations.
 
 Here is a [list of articles][translations] to get you started.
 
-## Be Consistent
+## Consistency, Consistency, Consistency
 {% include image.html name="consistency.svg" float="right" %}
 
 Consistency is key. Your beacon should provide a steady signal for yourself and
@@ -61,7 +61,7 @@ others. It will be hard at first, but if you and your friend have been in
 bitcoin for a while it should be trivial to talk about current events and/or how
 bitcoin works for an hour every week.
 
-**Stick with it for at least 21 weeks.** All you need is some patience and
+**Stick with it for at least [21 weeks].** All you need is some patience and
 consistency, and the rest will happen on its own.
 
 <center>
@@ -75,3 +75,4 @@ consistency, and the rest will happen on its own.
 [logo]: /logo
 [name]: /fork#the-name
 [translations]: /translations
+[21 weeks]: #
