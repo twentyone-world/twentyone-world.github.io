@@ -32,7 +32,3 @@ Here are some formats that usually work well:
 Start with one of these and do it in your native language. Weekly news roundups and reading translations is probably easiest. 
 
 Episode frequency will depend on format and time commitment. Weekly or bi-weekly is good.
-
-[← Back to the map](/)
-
----

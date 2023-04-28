@@ -11,5 +11,3 @@ There's not one, not two, but three secrets. Okay, maybe four:
 - Consistency, consistency, consistency
 
 Whatever you do, stick with it for 21 weeks.
-
-[← Back to the map](/)
