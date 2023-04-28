@@ -5,7 +5,7 @@ title: Focus
 
 Local [Language](/language). Local Culture. No Shitcoins.
 
-
+![](/images/no-shitcoins.png)
 
 [← Back to the map](/)
 
