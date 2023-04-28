@@ -4,6 +4,8 @@ title: Blueprint
 redirect_from: /checklist
 ---
 
+The following is a rough blueprint for starting a local "twentyone" community, or what we call a [fork](/fork). This has worked in multiple countries.
+
 ![](/images/blueprint.png)
 
 ## Team Up
@@ -70,6 +72,8 @@ bitcoin works for an hour every week.
 **Stick with it for at least [21 weeks](/secrets).** All you need is some patience and
 consistency, and the rest will happen on its own.
 
+---
+
 ## Checklist
 
 0. **[Find another bitcoiner][teamup]** <br/>Don't try to do it alone.
@@ -89,6 +93,7 @@ consistency, and the rest will happen on its own.
 </center>
 
 [twentyone]: /fork#the-name
+[name]: /fork#the-name
 [podcast]: /podcast
 [beacon]: /fork#the-concept
 [logo]: /logo
