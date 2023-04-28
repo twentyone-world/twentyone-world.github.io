@@ -3,7 +3,7 @@ layout: text
 title: Logo
 ---
 
-To keep it simple: 
+To keep it simple:
 
 - "twentyone"
 - translated to your [local language](/language)
