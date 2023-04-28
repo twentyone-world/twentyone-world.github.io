@@ -1,6 +1,7 @@
 ---
 layout: text 
 title: Translations
+redirect_from: language
 ---
 
 The following articles are considered to be good entry points, especially for newcomers:
