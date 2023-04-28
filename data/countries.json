@@ -1856,9 +1856,9 @@
     "numeric": 840,
     "latitude": 38,
     "longitude": -97,
-    "name": "TFTC",
-    "link_to_public_community_group": "https://tftc.io/",
-    "external": true
+    "name": "Citadel Dispatch",
+    "link_to_public_community_group": "https://citadeldispatch.com/",
+    "offbrand": true
   },
   {
     "country": "United States Minor Outlying Islands",

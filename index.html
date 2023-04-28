@@ -52,7 +52,7 @@ title: Twentyone.World
                     function getColor(iso) {
                         let country = countries.find(c => c.alpha3 == iso);
                         if (country && country.link_to_public_community_group) {
-                            return country.external ? cWhite : cOrange;
+                            return country.offbrand ? cWhite : cOrange;
                         }
                         return cGray;
                     }

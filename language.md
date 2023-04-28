@@ -1,7 +1,16 @@
 ---
 layout: text 
-title: Translations
+title: Language
+redirect_from: translations
 ---
+
+English is saturated. The remaining 7,117 languages are not.
+
+Focus on your local language & your local culture. \\
+For local bitcoiners, by local bitcoiners. \\
+For the plebs, by the plebs.
+
+## Translations
 
 The following articles are considered to be good entry points, especially for newcomers:
 
