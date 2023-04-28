@@ -3,18 +3,6 @@ layout: text
 title: Network
 ---
 
-[twentyone.world](/) is a network of open communities that provide localized,
-high-quality, [bitcoin-only](/focus) content. Each community provides an [open
-space](/space) for bitcoiners in their respective countries to connect,
-collaborate, and exchange ideas. Each community has a [beacon](/beacon) in
-cyberspace that speaks the [language](/language) of their respective community.
-
-The purpose of [twentyone.world](/) is to open-source the concept, provide an
-actionable [blueprint](/blueprint) to help bitcoiners launch their own
-communities, and connect said communities to learn from each other.
-
-## Communities
-
 List of existing "twentyone" forks:
 
 {% assign communities = "" | split: ',' %}
@@ -28,11 +16,9 @@ List of existing "twentyone" forks:
 {% assign names = communities | map: "name" %}
 {% assign forks = names | uniq %}
 
+<ul>
 {% for name in forks %}
 {% assign fork = communities | where: "name", name | first %}
-- [{{ fork.name }}]({{ fork.link_to_public_community_group }})
+<li><a href="{{ fork.link_to_public_community_group }}" target="_blank">{{ fork.name }}</a></li>
 {% endfor %}
-
-[← Back to the map](/)
-
----
+</ul>
