@@ -14,9 +14,8 @@ actionable [blueprint](/blueprint) to help bitcoiners launch their own
 communities, and connect said communities to learn from each other.
 
 <center>
-    <h2>Sounds interesting?</h2>
     <a href="/blueprint">
-        <button type="button" class="btn btn-primary btn-large btn-custom">Look at the Blueprint</button>
+        <button type="button" class="btn btn-primary btn-large btn-custom">Learn more</button>
     </a>
 </center>
 
