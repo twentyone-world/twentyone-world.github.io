@@ -1,9 +1,14 @@
 ---
 layout: text 
-title: Fork the Logo
+title: Logo
 ---
 
-To keep it simple: "twentyone", translated to your local language, [bold font], with a small [bitcoin logo].
+To keep it simple: 
+
+- "twentyone"
+- translated to your [local language](/language)
+- [bold font]
+- ...with a small [bitcoin logo]
 
 Like this, but not in English:
 
@@ -20,11 +25,12 @@ Some forks also use a square or multi-line style:
 * SVG templates: [horizontal](/logo/twentyone.svg), [square](/logo/twe-nty-one.svg), [two lines](/logo/twenty-one.svg)
 * Font: [The Bold Font][bold font][^bold]
 
-
 You can use [Inkscape][inkscape][^inkscape] to modify the SVG files to your needs.
 
 [^bold]: Free font by New Bold Times, [dafont.com](https://www.dafont.com/the-bold-font.font)
 [^inkscape]: Inkscape is free, libre, open-source software, [inkscape.org][inkscape]
+
+---
 
 ## Existing Forks
 
