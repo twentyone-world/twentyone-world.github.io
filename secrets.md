@@ -10,4 +10,4 @@ There's not one, not two, but three secrets. Okay, maybe four:
 - Start with [cyberspace first](/cyberspace)
 - Consistency, consistency, consistency
 
-Whatever you do, stick with it for 21 weeks.
+Whatever you do, stick with it for [21 weeks](/secrets).
