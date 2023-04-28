@@ -3,7 +3,7 @@ layout: text
 title: Focus
 ---
 
-Local Language. Local Culture. No Shitcoins.
+Local [Language](/language). Local Culture. No Shitcoins.
 
 
 
