@@ -28,8 +28,9 @@ List of existing "twentyone" forks:
 {% assign names = communities | map: "name" %}
 {% assign forks = names | uniq %}
 
-{% for fork in forks %}
-- {{ fork }}
+{% for name in forks %}
+{% assign fork = communities | where: "name", name | first %}
+- [{{ fork.name }}]({{ fork.link_to_public_community_group }})
 {% endfor %}
 
 [← Back to the map](/)
