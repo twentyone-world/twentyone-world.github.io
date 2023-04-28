@@ -45,7 +45,7 @@ and localized, but globally connected.
 
 Be welcoming but vigilant, and always remember that everyone is a scammer.
 
-## Your Language. Your Culture.
+## Your Language. Your Culture
 
 {% include image.html name="translation.svg" %}
 
