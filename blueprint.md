@@ -8,6 +8,10 @@ The following is a rough blueprint for starting a local "twentyone" community, o
 
 ![](/images/blueprint.png)
 
+It might help to watch the last [10 minutes of this
+video](https://youtu.be/iOWvL9-4k4A?t=982), which explains the blueprint in more
+detail.
+
 ## Team Up
 
 {% include image.html name="handshake.svg" float="right" %}
