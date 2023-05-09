@@ -8,6 +8,10 @@ The following is a rough blueprint for starting a local "twentyone" community, o
 
 ![](/images/blueprint.png)
 
+It might help to watch the last [10 minutes of this
+video](https://youtu.be/iOWvL9-4k4A?t=982), which explains the blueprint in more
+detail.
+
 ## Team Up
 
 {% include image.html name="handshake.svg" float="right" %}
@@ -77,8 +81,8 @@ consistency, and the rest will happen on its own.
 ## Checklist
 
 0. **[Find another bitcoiner][teamup]** <br/>Don't try to do it alone.
-1. **[Fork the name][twentyone]** <br/>Translate "twentyone" into your local language.
-2. **[Fork the logo][logo]** <br/>Feel free to be creative!
+1. **[Fork the name][twentyone]** (optional)<br/>Translate "twentyone" into your local language.
+2. **[Fork the logo][logo]** (optional)<br/>Feel free to be creative!
 3. **[Create a beacon][beacon]** <br/>A [podcast] is easiest and works best. 
 4. **[Create a group][group]** <br/>Telegram works well, but any place where people can meet and exchange ideas works.
 5. **[Translate content][translations]** <br/>We have a list of articles to get you started.

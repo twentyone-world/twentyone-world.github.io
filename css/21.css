@@ -202,3 +202,12 @@ h3:hover .headerlink {
 		font-size: 1.8rem;
 	}
 }
+
+/* Video */
+.flex-vid {
+	height: 100%;
+}
+.flex-vid iframe {
+	width: 100%;
+	height: 100%;
+}
