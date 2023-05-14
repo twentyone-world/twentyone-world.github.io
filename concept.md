@@ -15,7 +15,7 @@ cyberspace that speaks the [language](/language) of their respective community.
 
 The purpose of [twentyone.world](/) is to open-source the concept, provide an
 actionable [blueprint](/blueprint) to help bitcoiners launch their own
-communities, and connect said communities to learn from each other.
+communities, and [connect](/network) said communities to learn from each other.
 
 <center>
     <a href="/blueprint">

@@ -3,6 +3,9 @@ layout: text
 title: Network
 ---
 
+The "network" part is very much a work-in-progress. If you've started a fork
+and/or would like to help, please [contact me](https://dergigi.com/contact).
+
 List of existing "twentyone" forks:
 
 {% assign communities = "" | split: ',' %}
