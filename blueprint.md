@@ -76,6 +76,13 @@ bitcoin works for an hour every week.
 **Stick with it for at least [21 weeks](/secrets).** All you need is some patience and
 consistency, and the rest will happen on its own.
 
+<center>
+    <h2>Too long, didn't read?</h2>
+    <a href="https://youtu.be/iOWvL9-4k4A">
+        <button type="button" class="btn btn-primary btn-large btn-custom">Watch the Video</button>
+    </a>
+</center>
+
 ---
 
 ## Checklist
@@ -87,7 +94,6 @@ consistency, and the rest will happen on its own.
 4. **[Create a group][group]** <br/>Telegram works well, but any place where people can meet and exchange ideas works.
 5. **[Translate content][translations]** <br/>We have a list of articles to get you started.
 6. **[Be consistent][consistency]** <br/>This is key. Whatever you do, stick with it for at least 21 weeks.
-
 
 <center>
     <h2>Did all that?</h2>
