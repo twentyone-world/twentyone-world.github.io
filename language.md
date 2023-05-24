@@ -1,7 +1,8 @@
 ---
 layout: text 
 title: Language
-redirect_from: translations
+redirect_from: 
+- /translations
 ---
 
 English is saturated. The remaining 7,117 languages are not.
