@@ -4,3 +4,5 @@ auto: true
 title: Twentyone.World
 tagline: Constant Signal. Local Language. Open Group.
 data_source: data
+url: https://twentyone.world
+baseurl: /
