@@ -1,8 +1,7 @@
 markdown: rdiscount
-pygments: true
-auto: true
+highlighter: pygments
 title: Twentyone.World
 tagline: Constant Signal. Local Language. Open Group.
-data_source: data
+data_dir: data
 url: https://twentyone.world
 baseurl: /
