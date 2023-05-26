@@ -6,6 +6,8 @@ redirect_from:
 - /meatspace
 - /meetups
 - /group
+- /group/
+- /groups
 ---
 
 Provide an open space so others can easily join and participate.
