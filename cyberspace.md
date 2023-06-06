@@ -18,6 +18,16 @@ However, and this is important, this open space should be in
 
 Meatspace doesn't scale. Cyberspace does.
 
+## Easy to Join
+
+The group should be open to the public and easy to join. Like this:
+
+<center>
+    <a href="https://t.me/twentyonedotworld" target="_blank">
+        <button type="button" class="btn btn-primary btn-large btn-custom">Join the Group</button>
+    </a>
+</center>
+
 ## Cyberspace
 
 Use whatever works. Here is what worked for others:
