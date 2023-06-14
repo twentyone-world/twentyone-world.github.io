@@ -1262,7 +1262,9 @@
     "alpha3": "NZL",
     "numeric": 554,
     "latitude": -41,
-    "longitude": 174
+    "longitude": 174,
+    "name": "Kiwi Bitcoin Guide",
+    "link": "https://nzbitcoiners.org"
   },
   {
     "country": "Nicaragua",
