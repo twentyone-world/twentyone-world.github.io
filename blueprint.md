@@ -8,9 +8,12 @@ The following is a rough blueprint for starting a local "twentyone" community, o
 
 ![](/images/blueprint.png)
 
-It might help to watch the last [10 minutes of this
-video](https://youtu.be/iOWvL9-4k4A?t=982), which explains the blueprint in more
-detail.
+It might help to watch the last [10 minutes of this video](https://youtu.be/iOWvL9-4k4A?t=982), which explains the blueprint in more detail.
+We explicitely encourage you to learn from our experience and adopt the [concept](/concept).
+
+<div class="flex-vid">
+  <iframe src="https://www.youtube-nocookie.com/embed/NvD5Ea0GRIc" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+</div>
 
 ## Team Up
 
