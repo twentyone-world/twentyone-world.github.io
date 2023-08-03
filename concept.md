@@ -1,5 +1,5 @@
 ---
-layout: text 
+layout: text
 title: Concept
 ---
 
@@ -26,5 +26,4 @@ communities, and [connect](/network) said communities to learn from each other.
 [podcast]: /podcast
 [logo]: /logo
 [name]: /fork#the-name
-[translations]: /translations
 [21 weeks]: /secret

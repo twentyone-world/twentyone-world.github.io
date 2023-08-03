@@ -1,5 +1,5 @@
 ---
-layout: text 
+layout: text
 title: Blueprint
 redirect_from: /checklist
 ---
@@ -18,7 +18,7 @@ detail.
 
 Step zero is to **[find another bitcoiner](/secrets)**. It is way easier and way more fun. Don’t
 try to do everything on your own, so let me repeat this once more: find another
-bitcoiner and team up. 
+bitcoiner and team up.
 
 It should be someone you like, someone that speaks the same language. Once you
 are two, you can get rolling.
@@ -90,7 +90,7 @@ consistency, and the rest will happen on its own.
 0. **[Find another bitcoiner][teamup]** <br/>Don't try to do it alone.
 1. **[Fork the name][twentyone]** (optional)<br/>Translate "twentyone" into your local language.
 2. **[Fork the logo][logo]** (optional)<br/>Feel free to be creative!
-3. **[Create a beacon][beacon]** <br/>A [podcast] is easiest and works best. 
+3. **[Create a beacon][beacon]** <br/>A [podcast] is easiest and works best.
 4. **[Create a group][group]** <br/>Telegram works well, but any place where people can meet and exchange ideas works.
 5. **[Translate content][translations]** <br/>We have a list of articles to get you started.
 6. **[Be consistent][consistency]** <br/>This is key. Whatever you do, stick with it for at least 21 weeks.
@@ -109,5 +109,5 @@ consistency, and the rest will happen on its own.
 [logo]: /logo
 [teamup]: /fork#the-trick
 [group]: /fork#the-trick
-[translations]: /translations
+[translations]: /language#translations
 [consistency]: /fork#the-trick

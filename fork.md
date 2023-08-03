@@ -1,5 +1,5 @@
 ---
-layout: text 
+layout: text
 title: What the Fork?
 ---
 
@@ -14,7 +14,7 @@ and modify it to your needs. In other words: to fork it.
 
 Many countries still lack bitcoin-only content that is available in their native
 languages, as well as bitcoin-only communities that are regional and free of
-shitcoinery. 
+shitcoinery.
 
 Germany was such a country as recently as 2018, which is why we launched
 EINUNDZWANZIG, a German bitcoin-only podcast that evolved into ... I don't know
@@ -45,7 +45,7 @@ translates to "twentyone" the country will be colored orange.
 - **Be consistent**: stick with it for 21 weeks.
 
 In short: provide localized, high-quality, bitcoin-only content and create a space
-for bitcoiners in your country to connect, collaborate, and exchange ideas. 
+for bitcoiners in your country to connect, collaborate, and exchange ideas.
 
 [^create]: For us, this was a [weekly podcast](https://einundzwanzig.space/podcast/)
 [^translate]: For us, this was the Bitcoin Standard and many other [bitcoin resources](https://bitcoin-resources.com). The guys from [Aprycot Media](https://aprycot.media/) helped a ton.
@@ -62,18 +62,15 @@ which is why we are open-sourcing [the concept that worked for us][concept]. Fee
     </a>
 </center>
 
-[concept]: https://einundzwanzig.space/files/EINUNDZWANZIG-WhatWorkedForUs.pdf
-[logo]: /logo
-
 ## The Logo
 
 Find some inspiration and all required assets [here][logo].
 
 ## The Translations
 
-Localized content is absolutely paramount. Not everyone is fluent in English, and Bitcoin is complicated enough as it is. 
+Localized content is absolutely paramount. Not everyone is fluent in English, and Bitcoin is complicated enough as it is.
 
-Find a list of articles at [/translations](/translations).
+Find a list of articles to [translate][translations].
 
 ## The Trick
 
@@ -88,7 +85,7 @@ scalability. It isn't that much work to produce, and it is something that can be
 easily found, easily consumed, and scales almost indefinitely. Other formats,
 such as a newsletter, probably work well too. But it's hard to beat the
 in-person character of a podcast. **Find another bitcoiner** and just shoot the shit
-or discuss the news for an hour every week. 
+or discuss the news for an hour every week.
 
 Re (2): This is probably the hardest part, but **consistency is key**. Whatever you
 do, stick with it for a couple of months. You will be surprised how many
@@ -107,7 +104,7 @@ love of Satoshi, they will probably be happy to get involved too. That's one of
 the side-effects of the orange pill: it makes people want to do bitcoin stuff.
 
 TL;DR: Find quality people, and trust that something great will emerge through
-self-organization and spontaneous order. 
+self-organization and spontaneous order.
 
 ## The Community
 
@@ -125,3 +122,7 @@ perfectly fine. Let them, and more importantly: encourage them!
 ![](images/thankyou.jpg)
 
 ---
+
+[concept]: https://einundzwanzig.space/files/EINUNDZWANZIG-WhatWorkedForUs.pdf
+[logo]: /logo
+[translations]: /language#translations
