@@ -205,9 +205,12 @@ h3:hover .headerlink {
 
 /* Video */
 .flex-vid {
+  position: relative;
 	height: 100%;
+  padding-bottom: 56.25%;
 }
 .flex-vid iframe {
+  position: absolute;
 	width: 100%;
 	height: 100%;
 }
