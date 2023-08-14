@@ -57,7 +57,7 @@ which is why we are open-sourcing [the concept that worked for us][concept]. Fee
 [fork the logo][logo] and the name, by the way.
 
 <center>
-    <a href="/checklist">
+    <a href="/blueprint.html#checklist">
         <button type="button" class="btn btn-primary btn-large btn-custom">Get Started!</button>
     </a>
 </center>
