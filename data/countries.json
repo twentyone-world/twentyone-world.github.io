@@ -1241,6 +1241,8 @@
     "numeric": 528,
     "latitude": 52.5,
     "longitude": 5.75
+    "name": "EENENTWINTIG",
+    "link_to_public_community_group": "https://eenentwintig.net"
   },
   {
     "country": "Netherlands Antilles",
@@ -1663,6 +1665,8 @@
     "numeric": 740,
     "latitude": 4,
     "longitude": -56
+    "name": "EENENTWINTIG",
+    "link_to_public_community_group": "https://eenentwintig.net"
   },
   {
     "country": "Svalbard and Jan Mayen",
