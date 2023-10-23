@@ -1856,7 +1856,9 @@
     "alpha3": "GBR",
     "numeric": 826,
     "latitude": 54,
-    "longitude": -2
+    "longitude": -2,
+    "link_to_public_community_group": "https://bitcoinevents.uk/uk-bitcoin-meetup-map/",
+    "offbrand": true
   },
   {
     "country": "United States",
