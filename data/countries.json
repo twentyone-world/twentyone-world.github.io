@@ -788,7 +788,9 @@
     "alpha3": "HUN",
     "numeric": 348,
     "latitude": 47,
-    "longitude": 20
+    "longitude": 20,
+    "name": "Huszonegy",
+    "link_to_public_community_group": "https://huszonegy.world/"
   },
   {
     "country": "Iceland",
