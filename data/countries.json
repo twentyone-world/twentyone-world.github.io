@@ -160,7 +160,9 @@
     "alpha3": "BEL",
     "numeric": 56,
     "latitude": 50.8333,
-    "longitude": 4
+    "longitude": 4,
+    "name": "EENENTWINTIG",
+    "link_to_public_community_group": "https://eenentwintig.net"
   },
   {
     "country": "Belize",
