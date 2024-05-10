@@ -55,4 +55,4 @@ You have to [create a beacon](/beacon).
 You have to focus on [cyberspace first](#cyberspace).
 Don't know where to start? Have a look at the [blueprint](/blueprint).
 
-Also, consider going on a [PlebWalk](https://plebwalks.com/) instead of going through the hassle of organizing a meetup.
+Also, consider going on a PlebWalk instead of going through the hassle of organizing a meetup.
