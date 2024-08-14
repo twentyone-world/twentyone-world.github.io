@@ -5,3 +5,4 @@ tagline: Constant Signal. Local Language. Open Group.
 data_dir: data
 url: https://twentyone.world
 baseurl: /
+include: [".well-known"]
