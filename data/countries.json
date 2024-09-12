@@ -348,7 +348,9 @@
     "alpha3": "CHN",
     "numeric": 156,
     "latitude": 35,
-    "longitude": 105
+    "longitude": 105,
+    "name": "二十一",
+    "link": "https://linktr.ee/bitcoindiscovery"
   },
   {
     "country": "Christmas Island",
@@ -1729,7 +1731,9 @@
     "alpha3": "TWN",
     "numeric": 158,
     "latitude": 23.5,
-    "longitude": 121
+    "longitude": 121,
+    "name": "二十一",
+    "link": "https://linktr.ee/bitcoindiscovery"
   },
   {
     "country": "Tajikistan",
