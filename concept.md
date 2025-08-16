@@ -23,7 +23,7 @@ communities, and [connect](/network) said communities to learn from each other.
     </a>
 </center>
 
-[podcast]: /podcast
+[podcast]: /beacon
 [logo]: /logo
 [name]: /fork#the-name
 [21 weeks]: /secret
