@@ -107,7 +107,7 @@ consistency, and the rest will happen on its own.
 
 [twentyone]: /fork#the-name
 [name]: /fork#the-name
-[podcast]: /podcast
+[podcast]: /beacon
 [beacon]: /fork#the-concept
 [logo]: /logo
 [teamup]: /fork#the-trick
