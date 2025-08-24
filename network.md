@@ -31,6 +31,6 @@ List of existing "twentyone" forks:
 <ul>
 {% for name in forks %}
 {% assign fork = communities | where: "name", name | first %}
-<li><a href="{{ fork.link_to_public_community_group }}" target="_blank">{{ fork.name }}</a></li>
+<li><span title="{{ fork.country }}">{{ fork.alpha3 }}</span>&nbsp;<a href="{{ fork.link_to_public_community_group }}" target="_blank">{{ fork.name }}</a></li>
 {% endfor %}
 </ul>
