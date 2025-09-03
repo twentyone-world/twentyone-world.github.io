@@ -71,6 +71,8 @@
     "numeric": 32,
     "latitude": -34,
     "longitude": -64
+    "name": "VEINTIUNO",
+    "link_to_public_community_group": "https://VEINTIUNO.btc.pub"
   },
   {
     "country": "Armenia",
@@ -341,6 +343,8 @@
     "numeric": 152,
     "latitude": -30,
     "longitude": -71
+    "name": "VEINTIUNO",
+    "link_to_public_community_group": "https://VEINTIUNO.btc.pub"
   },
   {
     "country": "China",
@@ -373,6 +377,8 @@
     "numeric": 170,
     "latitude": 4,
     "longitude": -72
+    "name": "VEINTIUNO",
+    "link_to_public_community_group": "https://VEINTIUNO.btc.pub"
   },
   {
     "country": "Comoros",
@@ -439,6 +445,8 @@
     "numeric": 192,
     "latitude": 21.5,
     "longitude": -80
+    "name": "VEINTIUNO",
+    "link_to_public_community_group": "https://VEINTIUNO.btc.pub"
   },
   {
     "country": "Cyprus",
@@ -491,6 +499,8 @@
     "numeric": 214,
     "latitude": 19,
     "longitude": -70.6667
+    "name": "VEINTIUNO",
+    "link_to_public_community_group": "https://VEINTIUNO.btc.pub"
   },
   {
     "country": "Ecuador",
@@ -499,6 +509,8 @@
     "numeric": 218,
     "latitude": -2,
     "longitude": -77.5
+    "name": "VEINTIUNO",
+    "link_to_public_community_group": "https://VEINTIUNO.btc.pub"
   },
   {
     "country": "Egypt",
@@ -516,7 +528,7 @@
     "latitude": 13.8333,
     "longitude": -88.9167,
     "name": "VEINTIUNO",
-    "link_to_public_community_group": "https://veintiuno.world"
+    "link_to_public_community_group": "https://VEINTIUNO.btc.pub"
   },
   {
     "country": "Equatorial Guinea",
@@ -713,6 +725,8 @@
     "numeric": 320,
     "latitude": 15.5,
     "longitude": -90.25
+    "name": "VEINTIUNO",
+    "link_to_public_community_group": "https://VEINTIUNO.btc.pub"
   },
   {
     "country": "Guernsey",
@@ -777,6 +791,8 @@
     "numeric": 340,
     "latitude": 15,
     "longitude": -86.5
+    "name": "VEINTIUNO",
+    "link_to_public_community_group": "https://VEINTIUNO.btc.pub"
   },
   {
     "country": "Hong Kong",
@@ -1141,6 +1157,8 @@
     "numeric": 484,
     "latitude": 23,
     "longitude": -102
+    "name": "VEINTIUNO",
+    "link_to_public_community_group": "https://VEINTIUNO.btc.pub"
   },
   {
     "country": "Micronesia, Federated States of",
@@ -1396,6 +1414,8 @@
     "numeric": 604,
     "latitude": -10,
     "longitude": -76
+    "name": "VEINTIUNO",
+    "link_to_public_community_group": "https://VEINTIUNO.btc.pub"
   },
   {
     "country": "Philippines",
@@ -1654,6 +1674,8 @@
     "numeric": 724,
     "latitude": 40,
     "longitude": -4
+    "name": "VEINTIUNO",
+    "link_to_public_community_group": "https://VEINTIUNO.btc.pub"
   },
   {
     "country": "Sri Lanka",
@@ -1921,6 +1943,8 @@
     "numeric": 862,
     "latitude": 8,
     "longitude": -66
+    "name": "VEINTIUNO",
+    "link_to_public_community_group": "https://VEINTIUNO.btc.pub"
   },
   {
     "country": "Viet Nam",
